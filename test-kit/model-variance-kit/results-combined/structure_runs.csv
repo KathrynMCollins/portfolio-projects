@@ -1,0 +1,391 @@
+set,model,input,run,headings_added,bold_added,list_items_added,callouts_added,micro_paragraphs,order_inversions,sentences_unmatched,word_ratio
+Main run,claude-haiku-5-5,01-caveat-dash,1,0,0,0,0,0,0,0,0.97
+Main run,claude-haiku-5-5,01-caveat-dash,2,0,0,0,0,0,0,0,1.05
+Main run,claude-haiku-5-5,01-caveat-dash,3,0,0,0,0,0,0,0,1.07
+Main run,claude-haiku-5-5,01-caveat-dash,4,0,0,0,0,0,0,0,1.05
+Main run,claude-haiku-5-5,01-caveat-dash,5,0,0,0,0,0,0,0,0.95
+Main run,claude-haiku-5-5,02-you-and-permission,1,1,0,0,0,0,0,0,0.86
+Main run,claude-haiku-5-5,02-you-and-permission,2,1,0,0,0,0,0,0,0.89
+Main run,claude-haiku-5-5,02-you-and-permission,3,1,0,0,0,0,0,0,0.88
+Main run,claude-haiku-5-5,02-you-and-permission,4,0,0,0,0,0,0,0,0.88
+Main run,claude-haiku-5-5,02-you-and-permission,5,1,0,0,0,0,0,1,0.82
+Main run,claude-haiku-5-5,03-product-name,1,0,0,0,0,0,0,0,0.97
+Main run,claude-haiku-5-5,03-product-name,2,0,0,0,0,0,0,0,0.93
+Main run,claude-haiku-5-5,03-product-name,3,1,0,0,0,0,0,0,1.03
+Main run,claude-haiku-5-5,03-product-name,4,0,0,0,0,0,0,0,0.86
+Main run,claude-haiku-5-5,03-product-name,5,1,0,0,0,0,0,0,1.03
+Main run,claude-haiku-5-5,04-legit-just,1,0,0,0,0,0,0,0,0.94
+Main run,claude-haiku-5-5,04-legit-just,2,0,0,0,0,0,0,0,0.94
+Main run,claude-haiku-5-5,04-legit-just,3,0,0,0,0,0,0,0,0.94
+Main run,claude-haiku-5-5,04-legit-just,4,0,0,0,0,0,0,0,0.94
+Main run,claude-haiku-5-5,04-legit-just,5,0,0,0,0,0,0,0,0.94
+Main run,claude-haiku-5-5,05-procedure,1,0,0,0,0,1,0,0,0.89
+Main run,claude-haiku-5-5,05-procedure,2,1,0,0,0,1,0,0,0.92
+Main run,claude-haiku-5-5,05-procedure,3,0,0,0,0,1,0,0,0.84
+Main run,claude-haiku-5-5,05-procedure,4,1,0,0,0,1,0,0,0.92
+Main run,claude-haiku-5-5,05-procedure,5,0,0,0,0,1,0,0,0.84
+Main run,claude-haiku-5-5,06-code-and-flag,1,0,0,0,0,0,0,0,0.85
+Main run,claude-haiku-5-5,06-code-and-flag,2,0,0,0,0,0,0,0,0.85
+Main run,claude-haiku-5-5,06-code-and-flag,3,0,0,0,0,0,0,0,0.85
+Main run,claude-haiku-5-5,06-code-and-flag,4,0,0,0,0,0,0,0,0.85
+Main run,claude-haiku-5-5,06-code-and-flag,5,0,0,0,0,0,0,0,0.85
+Main run,claude-opus-5-5,01-caveat-dash,1,0,0,0,0,0,0,0,0.97
+Main run,claude-opus-5-5,01-caveat-dash,2,0,0,0,0,0,0,0,0.97
+Main run,claude-opus-5-5,01-caveat-dash,3,0,0,0,0,0,0,0,0.97
+Main run,claude-opus-5-5,01-caveat-dash,4,0,0,0,0,0,0,0,0.97
+Main run,claude-opus-5-5,01-caveat-dash,5,0,0,0,0,0,0,0,0.97
+Main run,claude-opus-5-5,02-you-and-permission,1,0,0,0,0,0,0,1,0.73
+Main run,claude-opus-5-5,02-you-and-permission,2,0,0,0,0,0,0,1,0.73
+Main run,claude-opus-5-5,02-you-and-permission,3,0,0,0,0,0,0,1,0.71
+Main run,claude-opus-5-5,02-you-and-permission,4,0,0,0,0,0,0,1,0.7
+Main run,claude-opus-5-5,02-you-and-permission,5,0,0,0,0,0,0,1,0.71
+Main run,claude-opus-5-5,03-product-name,1,0,0,0,0,0,0,0,1.0
+Main run,claude-opus-5-5,03-product-name,2,0,0,0,0,0,0,0,0.97
+Main run,claude-opus-5-5,03-product-name,3,0,0,0,0,0,0,0,1.0
+Main run,claude-opus-5-5,03-product-name,4,0,0,0,0,0,0,0,0.97
+Main run,claude-opus-5-5,03-product-name,5,0,0,0,0,0,0,0,1.0
+Main run,claude-opus-5-5,04-legit-just,1,0,0,0,0,0,0,0,0.98
+Main run,claude-opus-5-5,04-legit-just,2,0,0,0,0,0,0,0,0.98
+Main run,claude-opus-5-5,04-legit-just,3,0,0,0,0,0,0,0,0.98
+Main run,claude-opus-5-5,04-legit-just,4,0,0,0,0,0,0,0,0.98
+Main run,claude-opus-5-5,04-legit-just,5,0,0,0,0,0,0,0,0.98
+Main run,claude-opus-5-5,05-procedure,1,0,0,0,0,1,0,0,0.84
+Main run,claude-opus-5-5,05-procedure,2,0,0,0,0,1,0,0,0.92
+Main run,claude-opus-5-5,05-procedure,3,0,0,0,0,1,0,0,0.84
+Main run,claude-opus-5-5,05-procedure,4,0,0,0,0,1,0,0,0.84
+Main run,claude-opus-5-5,05-procedure,5,0,0,0,0,1,0,0,0.84
+Main run,claude-opus-5-5,06-code-and-flag,1,0,0,0,0,0,0,0,0.85
+Main run,claude-opus-5-5,06-code-and-flag,2,0,0,0,0,0,0,0,0.85
+Main run,claude-opus-5-5,06-code-and-flag,3,0,0,0,0,0,0,0,0.85
+Main run,claude-opus-5-5,06-code-and-flag,4,0,0,0,0,0,0,0,0.85
+Main run,claude-opus-5-5,06-code-and-flag,5,0,0,0,0,0,0,0,0.82
+Main run,claude-sonnet-5-5,01-caveat-dash,1,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,01-caveat-dash,2,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,01-caveat-dash,3,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,01-caveat-dash,4,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,01-caveat-dash,5,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,02-you-and-permission,1,0,0,0,0,0,0,1,0.79
+Main run,claude-sonnet-5-5,02-you-and-permission,2,0,0,0,0,0,0,1,0.73
+Main run,claude-sonnet-5-5,02-you-and-permission,3,0,0,0,0,0,0,1,0.73
+Main run,claude-sonnet-5-5,02-you-and-permission,4,0,0,0,0,0,0,1,0.73
+Main run,claude-sonnet-5-5,02-you-and-permission,5,0,0,0,0,0,0,1,0.79
+Main run,claude-sonnet-5-5,03-product-name,1,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,03-product-name,2,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,03-product-name,3,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,03-product-name,4,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,03-product-name,5,0,0,0,0,0,0,0,0.97
+Main run,claude-sonnet-5-5,04-legit-just,1,0,0,0,0,0,0,0,1.0
+Main run,claude-sonnet-5-5,04-legit-just,2,0,0,0,0,0,0,0,1.0
+Main run,claude-sonnet-5-5,04-legit-just,3,0,0,0,0,0,0,0,1.0
+Main run,claude-sonnet-5-5,04-legit-just,4,0,0,0,0,0,0,0,1.0
+Main run,claude-sonnet-5-5,04-legit-just,5,0,0,0,0,0,0,0,1.0
+Main run,claude-sonnet-5-5,05-procedure,1,0,0,0,0,1,0,0,0.84
+Main run,claude-sonnet-5-5,05-procedure,2,0,0,0,0,1,0,0,0.84
+Main run,claude-sonnet-5-5,05-procedure,3,0,0,0,0,1,0,0,0.84
+Main run,claude-sonnet-5-5,05-procedure,4,0,0,0,0,1,0,0,0.84
+Main run,claude-sonnet-5-5,05-procedure,5,0,0,0,0,1,0,0,0.84
+Main run,claude-sonnet-5-5,06-code-and-flag,1,0,0,0,0,0,0,0,0.82
+Main run,claude-sonnet-5-5,06-code-and-flag,2,0,0,0,0,0,0,0,0.82
+Main run,claude-sonnet-5-5,06-code-and-flag,3,0,0,0,0,0,0,0,0.82
+Main run,claude-sonnet-5-5,06-code-and-flag,4,0,0,0,0,0,0,0,0.82
+Main run,claude-sonnet-5-5,06-code-and-flag,5,0,0,0,0,0,0,0,0.82
+Replication,claude-haiku-5-5,01-caveat-dash,1,0,0,0,0,0,0,0,0.88
+Replication,claude-haiku-5-5,01-caveat-dash,2,0,0,0,0,0,0,0,0.88
+Replication,claude-haiku-5-5,01-caveat-dash,3,0,0,0,0,0,0,0,0.88
+Replication,claude-haiku-5-5,01-caveat-dash,4,0,0,0,0,0,0,0,0.88
+Replication,claude-haiku-5-5,01-caveat-dash,5,0,0,0,0,0,0,0,0.88
+Replication,claude-haiku-5-5,02-you-and-permission,1,1,0,0,0,0,0,1,0.93
+Replication,claude-haiku-5-5,02-you-and-permission,2,0,0,0,0,0,0,0,0.77
+Replication,claude-haiku-5-5,02-you-and-permission,3,1,0,0,0,0,0,0,0.88
+Replication,claude-haiku-5-5,02-you-and-permission,4,1,0,0,0,0,0,0,0.91
+Replication,claude-haiku-5-5,02-you-and-permission,5,1,0,0,0,0,0,0,0.86
+Replication,claude-haiku-5-5,03-product-name,1,0,0,0,0,0,0,0,0.97
+Replication,claude-haiku-5-5,03-product-name,2,0,0,0,0,0,0,0,0.97
+Replication,claude-haiku-5-5,03-product-name,3,0,0,0,0,0,0,0,1.0
+Replication,claude-haiku-5-5,03-product-name,4,0,0,0,0,0,0,0,0.86
+Replication,claude-haiku-5-5,03-product-name,5,0,0,0,0,0,0,0,0.9
+Replication,claude-haiku-5-5,04-legit-just,1,0,0,0,0,0,0,0,0.94
+Replication,claude-haiku-5-5,04-legit-just,2,0,0,0,0,0,0,0,0.94
+Replication,claude-haiku-5-5,04-legit-just,3,0,0,0,0,0,0,0,0.96
+Replication,claude-haiku-5-5,04-legit-just,4,1,0,0,0,0,0,0,0.98
+Replication,claude-haiku-5-5,04-legit-just,5,0,0,0,0,0,0,0,0.94
+Replication,claude-haiku-5-5,05-procedure,1,0,0,0,0,1,0,0,0.84
+Replication,claude-haiku-5-5,05-procedure,2,0,0,0,0,0,0,1,0.74
+Replication,claude-haiku-5-5,05-procedure,3,1,0,4,0,1,0,5,7.95
+Replication,claude-haiku-5-5,05-procedure,4,1,0,2,0,0,0,5,0.76
+Replication,claude-haiku-5-5,05-procedure,5,0,0,0,0,1,0,0,0.84
+Replication,claude-haiku-5-5,06-code-and-flag,1,0,0,0,0,0,0,0,0.85
+Replication,claude-haiku-5-5,06-code-and-flag,2,0,0,0,0,0,0,0,0.85
+Replication,claude-haiku-5-5,06-code-and-flag,3,0,0,0,0,0,0,0,0.85
+Replication,claude-haiku-5-5,06-code-and-flag,4,0,0,0,0,0,0,0,0.85
+Replication,claude-haiku-5-5,06-code-and-flag,5,0,0,0,0,0,0,0,0.85
+Replication,claude-opus-5-5,01-caveat-dash,1,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,01-caveat-dash,2,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,01-caveat-dash,3,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,01-caveat-dash,4,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,01-caveat-dash,5,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,02-you-and-permission,1,0,0,0,0,0,0,1,0.79
+Replication,claude-opus-5-5,02-you-and-permission,2,0,0,0,0,0,0,1,0.71
+Replication,claude-opus-5-5,02-you-and-permission,3,0,0,0,0,0,0,1,0.79
+Replication,claude-opus-5-5,02-you-and-permission,4,0,0,0,0,0,0,1,0.73
+Replication,claude-opus-5-5,02-you-and-permission,5,0,0,0,0,0,0,1,0.68
+Replication,claude-opus-5-5,03-product-name,1,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,03-product-name,2,0,0,0,0,0,0,0,0.93
+Replication,claude-opus-5-5,03-product-name,3,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,03-product-name,4,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,03-product-name,5,0,0,0,0,0,0,0,0.97
+Replication,claude-opus-5-5,04-legit-just,1,0,0,0,0,0,0,0,0.98
+Replication,claude-opus-5-5,04-legit-just,2,0,0,0,0,0,0,0,0.98
+Replication,claude-opus-5-5,04-legit-just,3,0,0,0,0,0,0,0,0.98
+Replication,claude-opus-5-5,04-legit-just,4,0,0,0,0,0,0,0,1.0
+Replication,claude-opus-5-5,04-legit-just,5,0,0,0,0,0,0,0,0.98
+Replication,claude-opus-5-5,05-procedure,1,0,0,0,0,1,0,0,0.84
+Replication,claude-opus-5-5,05-procedure,2,0,0,0,0,1,0,0,0.84
+Replication,claude-opus-5-5,05-procedure,3,0,0,0,0,1,0,0,0.84
+Replication,claude-opus-5-5,05-procedure,4,0,0,0,0,1,0,0,0.84
+Replication,claude-opus-5-5,05-procedure,5,0,0,0,0,1,0,0,0.84
+Replication,claude-opus-5-5,06-code-and-flag,1,0,0,0,0,0,0,0,0.85
+Replication,claude-opus-5-5,06-code-and-flag,2,0,0,0,0,0,0,0,0.85
+Replication,claude-opus-5-5,06-code-and-flag,3,0,0,0,0,0,0,0,0.85
+Replication,claude-opus-5-5,06-code-and-flag,4,0,0,0,0,0,0,0,0.85
+Replication,claude-opus-5-5,06-code-and-flag,5,0,0,0,0,0,0,0,0.85
+Replication,claude-sonnet-5-5,01-caveat-dash,1,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,01-caveat-dash,2,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,01-caveat-dash,3,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,01-caveat-dash,4,0,0,0,0,0,0,0,0.95
+Replication,claude-sonnet-5-5,01-caveat-dash,5,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,02-you-and-permission,1,0,0,0,0,0,0,1,0.73
+Replication,claude-sonnet-5-5,02-you-and-permission,2,0,0,0,0,0,0,1,0.77
+Replication,claude-sonnet-5-5,02-you-and-permission,3,0,0,0,0,0,0,1,0.77
+Replication,claude-sonnet-5-5,02-you-and-permission,4,0,0,0,0,0,0,1,0.77
+Replication,claude-sonnet-5-5,02-you-and-permission,5,0,0,0,0,0,0,1,0.77
+Replication,claude-sonnet-5-5,03-product-name,1,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,03-product-name,2,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,03-product-name,3,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,03-product-name,4,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,03-product-name,5,0,0,0,0,0,0,0,0.97
+Replication,claude-sonnet-5-5,04-legit-just,1,0,0,0,0,0,0,0,1.0
+Replication,claude-sonnet-5-5,04-legit-just,2,0,0,0,0,0,0,0,1.0
+Replication,claude-sonnet-5-5,04-legit-just,3,0,0,0,0,0,0,0,1.0
+Replication,claude-sonnet-5-5,04-legit-just,4,0,0,0,0,0,0,0,1.0
+Replication,claude-sonnet-5-5,04-legit-just,5,0,0,0,0,0,0,0,0.98
+Replication,claude-sonnet-5-5,05-procedure,1,0,0,0,0,1,0,0,0.84
+Replication,claude-sonnet-5-5,05-procedure,2,0,0,0,0,1,0,0,0.84
+Replication,claude-sonnet-5-5,05-procedure,3,0,0,0,0,1,0,0,0.84
+Replication,claude-sonnet-5-5,05-procedure,4,0,0,0,0,1,0,0,0.84
+Replication,claude-sonnet-5-5,05-procedure,5,0,0,0,0,1,0,0,0.84
+Replication,claude-sonnet-5-5,06-code-and-flag,1,0,0,0,0,0,0,0,0.85
+Replication,claude-sonnet-5-5,06-code-and-flag,2,0,0,0,0,0,0,0,0.85
+Replication,claude-sonnet-5-5,06-code-and-flag,3,0,0,0,0,0,0,0,0.82
+Replication,claude-sonnet-5-5,06-code-and-flag,4,0,0,0,0,0,0,0,0.82
+Replication,claude-sonnet-5-5,06-code-and-flag,5,0,0,0,0,0,0,0,0.82
+Added models,claude-fable-5-1,01-caveat-dash,1,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,01-caveat-dash,2,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,01-caveat-dash,3,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,01-caveat-dash,4,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,01-caveat-dash,5,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,02-you-and-permission,1,0,0,0,0,0,0,1,0.71
+Added models,claude-fable-5-1,02-you-and-permission,2,0,0,0,0,0,0,1,0.68
+Added models,claude-fable-5-1,02-you-and-permission,3,0,0,0,0,0,0,1,0.75
+Added models,claude-fable-5-1,02-you-and-permission,4,0,0,0,0,0,0,1,0.73
+Added models,claude-fable-5-1,02-you-and-permission,5,0,0,0,0,0,0,1,0.71
+Added models,claude-fable-5-1,03-product-name,1,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,03-product-name,2,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,03-product-name,3,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,03-product-name,4,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,03-product-name,5,0,0,0,0,0,0,0,0.97
+Added models,claude-fable-5-1,04-legit-just,1,0,0,0,0,0,0,0,0.98
+Added models,claude-fable-5-1,04-legit-just,2,0,0,0,0,0,0,0,1.0
+Added models,claude-fable-5-1,04-legit-just,3,0,0,0,0,0,0,0,1.0
+Added models,claude-fable-5-1,04-legit-just,4,0,0,0,0,0,0,0,0.98
+Added models,claude-fable-5-1,04-legit-just,5,0,0,0,0,0,0,0,0.98
+Added models,claude-fable-5-1,05-procedure,1,0,0,0,0,1,0,0,0.84
+Added models,claude-fable-5-1,05-procedure,2,0,0,0,0,1,0,0,0.84
+Added models,claude-fable-5-1,05-procedure,3,0,0,0,0,1,0,0,0.84
+Added models,claude-fable-5-1,05-procedure,4,0,0,0,0,1,0,0,0.84
+Added models,claude-fable-5-1,05-procedure,5,0,0,0,0,1,0,0,0.84
+Added models,claude-fable-5-1,06-code-and-flag,1,0,0,0,0,0,0,0,0.85
+Added models,claude-fable-5-1,06-code-and-flag,2,0,0,0,0,0,0,0,0.82
+Added models,claude-fable-5-1,06-code-and-flag,3,0,0,0,0,0,0,0,0.85
+Added models,claude-fable-5-1,06-code-and-flag,4,0,0,0,0,0,0,0,0.85
+Added models,claude-fable-5-1,06-code-and-flag,5,0,0,0,0,0,0,0,0.82
+Added models,claude-opus-4-7,01-caveat-dash,1,0,0,0,0,0,0,0,0.93
+Added models,claude-opus-4-7,01-caveat-dash,2,0,0,0,0,0,0,0,0.93
+Added models,claude-opus-4-7,01-caveat-dash,3,0,0,0,0,0,0,0,0.93
+Added models,claude-opus-4-7,01-caveat-dash,4,0,0,0,0,0,0,0,0.93
+Added models,claude-opus-4-7,01-caveat-dash,5,0,0,0,0,0,0,0,0.93
+Added models,claude-opus-4-7,02-you-and-permission,1,0,0,0,0,0,0,1,0.68
+Added models,claude-opus-4-7,02-you-and-permission,2,0,0,0,0,0,0,1,0.77
+Added models,claude-opus-4-7,02-you-and-permission,3,0,0,0,0,0,0,1,0.75
+Added models,claude-opus-4-7,02-you-and-permission,4,0,0,0,0,0,0,1,0.71
+Added models,claude-opus-4-7,02-you-and-permission,5,0,0,0,0,0,0,1,0.73
+Added models,claude-opus-4-7,03-product-name,1,0,0,0,0,0,0,0,0.97
+Added models,claude-opus-4-7,03-product-name,2,0,0,0,0,0,0,0,0.97
+Added models,claude-opus-4-7,03-product-name,3,0,0,0,0,0,0,0,0.97
+Added models,claude-opus-4-7,03-product-name,4,0,0,0,0,0,0,0,0.97
+Added models,claude-opus-4-7,03-product-name,5,0,0,0,0,0,0,0,0.97
+Added models,claude-opus-4-7,04-legit-just,1,0,0,0,0,0,0,0,0.98
+Added models,claude-opus-4-7,04-legit-just,2,0,0,0,0,0,0,0,0.98
+Added models,claude-opus-4-7,04-legit-just,3,0,0,0,0,0,0,0,0.98
+Added models,claude-opus-4-7,04-legit-just,4,0,0,0,0,0,0,0,0.98
+Added models,claude-opus-4-7,04-legit-just,5,0,0,0,0,0,0,0,0.98
+Added models,claude-opus-4-7,05-procedure,1,0,0,0,0,1,0,0,0.84
+Added models,claude-opus-4-7,05-procedure,2,0,0,0,0,1,0,0,0.84
+Added models,claude-opus-4-7,05-procedure,3,0,0,0,0,1,0,0,0.84
+Added models,claude-opus-4-7,05-procedure,4,0,0,0,0,1,0,0,0.84
+Added models,claude-opus-4-7,05-procedure,5,0,0,0,0,1,0,0,0.84
+Added models,claude-opus-4-7,06-code-and-flag,1,0,0,0,0,0,0,0,0.85
+Added models,claude-opus-4-7,06-code-and-flag,2,0,0,0,0,0,0,0,0.85
+Added models,claude-opus-4-7,06-code-and-flag,3,0,0,0,0,0,0,0,0.85
+Added models,claude-opus-4-7,06-code-and-flag,4,0,0,0,0,0,0,0,0.85
+Added models,claude-opus-4-7,06-code-and-flag,5,0,0,0,0,0,0,0,0.85
+Baseline,claude-fable-5-1,01-caveat-dash,1,2,0,0,0,0,1,0,1.1
+Baseline,claude-fable-5-1,01-caveat-dash,2,2,0,0,0,0,1,0,1.1
+Baseline,claude-fable-5-1,01-caveat-dash,3,2,0,0,0,0,1,0,1.1
+Baseline,claude-fable-5-1,01-caveat-dash,4,2,0,0,0,0,1,0,1.1
+Baseline,claude-fable-5-1,01-caveat-dash,5,2,0,0,0,0,1,0,1.1
+Baseline,claude-fable-5-1,02-you-and-permission,1,5,0,2,0,1,0,1,1.14
+Baseline,claude-fable-5-1,02-you-and-permission,2,3,1,2,0,0,0,1,1.02
+Baseline,claude-fable-5-1,02-you-and-permission,3,1,3,2,0,1,0,1,1.02
+Baseline,claude-fable-5-1,02-you-and-permission,4,1,3,2,0,1,0,1,1.0
+Baseline,claude-fable-5-1,02-you-and-permission,5,1,3,2,0,2,0,1,1.02
+Baseline,claude-fable-5-1,03-product-name,1,0,0,0,0,0,0,0,0.97
+Baseline,claude-fable-5-1,03-product-name,2,0,0,0,0,0,0,0,0.97
+Baseline,claude-fable-5-1,03-product-name,3,0,0,0,0,0,0,0,0.97
+Baseline,claude-fable-5-1,03-product-name,4,0,0,0,0,0,0,0,0.97
+Baseline,claude-fable-5-1,03-product-name,5,0,0,0,0,0,0,0,0.93
+Baseline,claude-fable-5-1,04-legit-just,1,3,0,2,0,0,0,0,1.33
+Baseline,claude-fable-5-1,04-legit-just,2,3,0,2,0,0,0,0,1.41
+Baseline,claude-fable-5-1,04-legit-just,3,3,0,2,0,0,0,0,1.33
+Baseline,claude-fable-5-1,04-legit-just,4,3,0,2,0,0,0,0,1.33
+Baseline,claude-fable-5-1,04-legit-just,5,3,0,2,0,0,0,0,1.39
+Baseline,claude-fable-5-1,05-procedure,1,1,0,0,0,0,0,1,0.84
+Baseline,claude-fable-5-1,05-procedure,2,0,0,0,0,1,0,0,0.87
+Baseline,claude-fable-5-1,05-procedure,3,1,0,0,0,0,0,1,0.84
+Baseline,claude-fable-5-1,05-procedure,4,0,0,0,0,1,0,0,0.87
+Baseline,claude-fable-5-1,05-procedure,5,1,0,0,0,0,0,1,0.84
+Baseline,claude-fable-5-1,06-code-and-flag,1,1,1,0,1,2,1,0,1.18
+Baseline,claude-fable-5-1,06-code-and-flag,2,0,0,0,0,3,0,0,0.88
+Baseline,claude-fable-5-1,06-code-and-flag,3,1,1,0,1,1,0,0,1.18
+Baseline,claude-fable-5-1,06-code-and-flag,4,1,0,0,0,1,1,0,1.21
+Baseline,claude-fable-5-1,06-code-and-flag,5,1,1,0,1,2,0,0,1.18
+Baseline,claude-haiku-5-5,01-caveat-dash,1,0,0,0,0,0,0,0,1.0
+Baseline,claude-haiku-5-5,01-caveat-dash,2,0,0,0,0,0,0,0,0.9
+Baseline,claude-haiku-5-5,01-caveat-dash,3,0,0,0,0,0,0,0,0.85
+Baseline,claude-haiku-5-5,01-caveat-dash,4,0,0,0,0,0,0,0,0.85
+Baseline,claude-haiku-5-5,01-caveat-dash,5,0,0,0,0,0,0,0,1.02
+Baseline,claude-haiku-5-5,02-you-and-permission,1,1,2,0,0,1,0,2,0.82
+Baseline,claude-haiku-5-5,02-you-and-permission,2,1,0,0,0,0,0,1,1.09
+Baseline,claude-haiku-5-5,02-you-and-permission,3,1,2,0,0,0,0,2,1.23
+Baseline,claude-haiku-5-5,02-you-and-permission,4,1,2,0,0,0,0,1,1.25
+Baseline,claude-haiku-5-5,02-you-and-permission,5,1,2,0,0,0,0,1,1.21
+Baseline,claude-haiku-5-5,03-product-name,1,1,0,0,0,0,0,0,1.07
+Baseline,claude-haiku-5-5,03-product-name,2,1,0,0,0,0,0,0,1.1
+Baseline,claude-haiku-5-5,03-product-name,3,1,0,0,0,0,0,0,1.1
+Baseline,claude-haiku-5-5,03-product-name,4,1,0,0,0,0,0,0,1.07
+Baseline,claude-haiku-5-5,03-product-name,5,1,0,0,0,0,0,0,1.07
+Baseline,claude-haiku-5-5,04-legit-just,1,0,0,0,0,0,0,0,0.96
+Baseline,claude-haiku-5-5,04-legit-just,2,0,0,0,0,0,0,0,0.96
+Baseline,claude-haiku-5-5,04-legit-just,3,0,0,0,0,0,0,0,0.96
+Baseline,claude-haiku-5-5,04-legit-just,4,0,0,0,0,0,0,0,0.98
+Baseline,claude-haiku-5-5,04-legit-just,5,0,0,0,0,0,0,0,0.96
+Baseline,claude-haiku-5-5,05-procedure,1,1,0,0,0,0,0,1,0.82
+Baseline,claude-haiku-5-5,05-procedure,2,1,0,0,0,1,0,0,0.92
+Baseline,claude-haiku-5-5,05-procedure,3,1,0,0,0,1,0,0,0.92
+Baseline,claude-haiku-5-5,05-procedure,4,1,0,0,0,1,0,0,0.92
+Baseline,claude-haiku-5-5,05-procedure,5,1,0,0,0,0,0,1,0.82
+Baseline,claude-haiku-5-5,06-code-and-flag,1,1,0,0,0,1,0,0,1.09
+Baseline,claude-haiku-5-5,06-code-and-flag,2,0,0,0,0,0,0,0,0.74
+Baseline,claude-haiku-5-5,06-code-and-flag,3,0,0,0,0,2,0,0,1.03
+Baseline,claude-haiku-5-5,06-code-and-flag,4,0,0,0,0,0,0,0,0.82
+Baseline,claude-haiku-5-5,06-code-and-flag,5,0,0,0,0,1,0,0,0.74
+Baseline,claude-opus-4-7,01-caveat-dash,1,3,0,0,0,0,0,0,1.25
+Baseline,claude-opus-4-7,01-caveat-dash,2,1,2,2,0,0,0,0,1.18
+Baseline,claude-opus-4-7,01-caveat-dash,3,1,2,2,0,0,0,0,1.12
+Baseline,claude-opus-4-7,01-caveat-dash,4,1,2,2,0,0,0,0,1.12
+Baseline,claude-opus-4-7,01-caveat-dash,5,1,2,2,0,0,0,0,1.12
+Baseline,claude-opus-4-7,02-you-and-permission,1,5,0,0,0,1,0,1,1.09
+Baseline,claude-opus-4-7,02-you-and-permission,2,4,0,2,0,0,0,1,0.91
+Baseline,claude-opus-4-7,02-you-and-permission,3,5,0,0,0,1,0,1,1.11
+Baseline,claude-opus-4-7,02-you-and-permission,4,4,1,3,0,1,0,1,0.95
+Baseline,claude-opus-4-7,02-you-and-permission,5,5,0,0,0,1,0,1,1.14
+Baseline,claude-opus-4-7,03-product-name,1,1,0,2,0,0,0,0,0.97
+Baseline,claude-opus-4-7,03-product-name,2,1,0,2,0,0,0,0,1.0
+Baseline,claude-opus-4-7,03-product-name,3,1,0,2,0,0,0,0,0.97
+Baseline,claude-opus-4-7,03-product-name,4,1,0,2,0,0,0,0,1.0
+Baseline,claude-opus-4-7,03-product-name,5,1,0,2,0,0,0,0,1.1
+Baseline,claude-opus-4-7,04-legit-just,1,3,0,2,0,0,0,0,1.33
+Baseline,claude-opus-4-7,04-legit-just,2,3,2,4,0,1,0,0,1.44
+Baseline,claude-opus-4-7,04-legit-just,3,3,2,4,0,1,0,0,1.46
+Baseline,claude-opus-4-7,04-legit-just,4,3,0,2,0,0,0,0,1.39
+Baseline,claude-opus-4-7,04-legit-just,5,3,0,2,0,0,0,0,1.31
+Baseline,claude-opus-4-7,05-procedure,1,1,0,0,0,0,0,1,0.84
+Baseline,claude-opus-4-7,05-procedure,2,1,0,0,0,0,0,1,0.84
+Baseline,claude-opus-4-7,05-procedure,3,1,0,0,0,0,0,1,0.84
+Baseline,claude-opus-4-7,05-procedure,4,1,0,0,0,0,0,1,0.84
+Baseline,claude-opus-4-7,05-procedure,5,1,0,0,0,0,0,1,0.84
+Baseline,claude-opus-4-7,06-code-and-flag,1,1,1,0,0,1,0,0,1.24
+Baseline,claude-opus-4-7,06-code-and-flag,2,1,2,0,1,1,0,0,1.21
+Baseline,claude-opus-4-7,06-code-and-flag,3,3,1,3,1,0,0,0,1.94
+Baseline,claude-opus-4-7,06-code-and-flag,4,1,2,0,1,0,0,0,1.0
+Baseline,claude-opus-4-7,06-code-and-flag,5,1,1,0,1,0,0,0,1.0
+Baseline,claude-opus-5-5,01-caveat-dash,1,2,1,0,1,0,1,0,1.2
+Baseline,claude-opus-5-5,01-caveat-dash,2,2,1,0,1,0,1,0,1.12
+Baseline,claude-opus-5-5,01-caveat-dash,3,1,1,0,1,0,1,0,1.1
+Baseline,claude-opus-5-5,01-caveat-dash,4,0,1,0,1,0,1,0,1.0
+Baseline,claude-opus-5-5,01-caveat-dash,5,1,1,0,1,0,1,0,1.07
+Baseline,claude-opus-5-5,02-you-and-permission,1,4,2,3,1,0,0,1,1.3
+Baseline,claude-opus-5-5,02-you-and-permission,2,5,1,2,0,1,1,1,1.46
+Baseline,claude-opus-5-5,02-you-and-permission,3,4,1,2,0,1,1,1,1.2
+Baseline,claude-opus-5-5,02-you-and-permission,4,1,2,0,0,0,0,1,1.09
+Baseline,claude-opus-5-5,02-you-and-permission,5,3,2,2,0,1,1,1,1.2
+Baseline,claude-opus-5-5,03-product-name,1,0,0,0,0,0,0,0,1.0
+Baseline,claude-opus-5-5,03-product-name,2,0,0,2,0,0,0,0,0.9
+Baseline,claude-opus-5-5,03-product-name,3,0,0,2,0,0,0,0,0.93
+Baseline,claude-opus-5-5,03-product-name,4,0,0,0,0,0,0,0,0.83
+Baseline,claude-opus-5-5,03-product-name,5,0,0,0,0,0,0,0,1.0
+Baseline,claude-opus-5-5,04-legit-just,1,3,0,2,0,0,0,0,1.37
+Baseline,claude-opus-5-5,04-legit-just,2,3,0,2,0,0,0,0,1.3
+Baseline,claude-opus-5-5,04-legit-just,3,3,0,2,0,0,0,0,1.3
+Baseline,claude-opus-5-5,04-legit-just,4,3,0,2,0,0,0,0,1.33
+Baseline,claude-opus-5-5,04-legit-just,5,3,0,2,0,0,0,0,1.33
+Baseline,claude-opus-5-5,05-procedure,1,0,0,0,0,1,0,0,0.84
+Baseline,claude-opus-5-5,05-procedure,2,0,0,0,0,1,0,0,0.87
+Baseline,claude-opus-5-5,05-procedure,3,0,0,0,0,1,0,0,0.87
+Baseline,claude-opus-5-5,05-procedure,4,0,0,0,0,1,0,0,0.87
+Baseline,claude-opus-5-5,05-procedure,5,0,0,0,0,1,0,0,0.87
+Baseline,claude-opus-5-5,06-code-and-flag,1,0,1,0,1,1,0,0,1.0
+Baseline,claude-opus-5-5,06-code-and-flag,2,0,1,0,1,1,0,0,0.91
+Baseline,claude-opus-5-5,06-code-and-flag,3,0,1,0,1,2,0,0,0.94
+Baseline,claude-opus-5-5,06-code-and-flag,4,0,1,0,1,0,0,0,0.94
+Baseline,claude-opus-5-5,06-code-and-flag,5,0,1,0,1,1,0,0,0.91
+Baseline,claude-sonnet-5-5,01-caveat-dash,1,1,1,0,1,0,1,0,1.02
+Baseline,claude-sonnet-5-5,01-caveat-dash,2,3,2,2,0,0,1,0,1.4
+Baseline,claude-sonnet-5-5,01-caveat-dash,3,3,0,2,0,0,1,0,1.1
+Baseline,claude-sonnet-5-5,01-caveat-dash,4,0,0,0,0,0,1,0,0.9
+Baseline,claude-sonnet-5-5,01-caveat-dash,5,2,0,0,0,0,1,0,1.1
+Baseline,claude-sonnet-5-5,02-you-and-permission,1,4,0,2,0,0,0,1,1.3
+Baseline,claude-sonnet-5-5,02-you-and-permission,2,4,0,4,0,0,0,1,1.3
+Baseline,claude-sonnet-5-5,02-you-and-permission,3,4,0,4,0,0,0,1,1.36
+Baseline,claude-sonnet-5-5,02-you-and-permission,4,4,0,4,0,0,0,1,1.32
+Baseline,claude-sonnet-5-5,02-you-and-permission,5,3,0,4,0,0,0,1,1.09
+Baseline,claude-sonnet-5-5,03-product-name,1,1,0,2,0,0,0,0,0.97
+Baseline,claude-sonnet-5-5,03-product-name,2,1,0,2,0,0,0,0,0.97
+Baseline,claude-sonnet-5-5,03-product-name,3,0,0,2,0,0,0,0,1.03
+Baseline,claude-sonnet-5-5,03-product-name,4,1,0,2,0,0,0,0,1.0
+Baseline,claude-sonnet-5-5,03-product-name,5,1,0,0,0,0,0,0,1.07
+Baseline,claude-sonnet-5-5,04-legit-just,1,1,0,2,0,1,0,0,1.22
+Baseline,claude-sonnet-5-5,04-legit-just,2,1,0,2,0,1,0,0,1.17
+Baseline,claude-sonnet-5-5,04-legit-just,3,1,0,2,0,1,0,0,1.22
+Baseline,claude-sonnet-5-5,04-legit-just,4,1,0,2,0,1,0,0,1.17
+Baseline,claude-sonnet-5-5,04-legit-just,5,1,0,2,0,1,0,0,1.15
+Baseline,claude-sonnet-5-5,05-procedure,1,0,0,0,0,1,0,0,0.84
+Baseline,claude-sonnet-5-5,05-procedure,2,0,0,0,0,1,0,0,0.84
+Baseline,claude-sonnet-5-5,05-procedure,3,0,0,0,0,1,0,0,0.84
+Baseline,claude-sonnet-5-5,05-procedure,4,0,0,0,0,1,0,0,0.84
+Baseline,claude-sonnet-5-5,05-procedure,5,0,0,0,0,1,0,0,0.84
+Baseline,claude-sonnet-5-5,06-code-and-flag,1,0,0,0,0,1,1,0,1.03
+Baseline,claude-sonnet-5-5,06-code-and-flag,2,1,0,0,0,1,1,0,1.15
+Baseline,claude-sonnet-5-5,06-code-and-flag,3,1,0,0,0,1,1,0,1.15
+Baseline,claude-sonnet-5-5,06-code-and-flag,4,0,0,0,0,1,1,0,1.03
+Baseline,claude-sonnet-5-5,06-code-and-flag,5,1,1,0,1,1,1,0,1.18

@@ -1,0 +1,34 @@
+{
+  "note": "Substance checks decide preserved/not preserved. 'info' checks are reported but are not failures (for example, keeping a correct 'just' is allowed either way).",
+  "01-caveat-dash": [
+    {"id": "caveat_kept", "kind": "substance", "type": "regex", "pattern": "existing incidents[^.]*?(keep|retain|remain|stay|unchanged|current grouping|not affected|unaffected)", "flags": "i"},
+    {"id": "new_alerts_kept", "kind": "substance", "type": "regex", "pattern": "new alerts", "flags": "i"},
+    {"id": "ui_bold_kept", "kind": "substance", "type": "contains", "text": "**Correlation**"}
+  ],
+  "02-you-and-permission": [
+    {"id": "permission_kept", "kind": "substance", "type": "regex", "pattern": "Admin permission", "flags": "i"},
+    {"id": "stop_early_kept", "kind": "substance", "type": "regex", "pattern": "stop", "flags": "i"}
+  ],
+  "03-product-name": [
+    {"id": "product_name_kept", "kind": "substance", "type": "contains", "text": "Harness integration"},
+    {"id": "root_cause_kept", "kind": "substance", "type": "regex", "pattern": "root cause", "flags": "i"}
+  ],
+  "04-legit-just": [
+    {"id": "scope_kept", "kind": "substance", "type": "regex", "pattern": "(only one|a single|one) environment", "flags": "i"},
+    {"id": "no_restart_kept", "kind": "substance", "type": "regex", "pattern": "restart", "flags": "i"},
+    {"id": "ui_bold_kept", "kind": "substance", "type": "contains", "text": "**Token**"},
+    {"id": "just_kept", "kind": "info", "type": "regex", "pattern": "\\bjust\\b", "flags": "i"}
+  ],
+  "05-procedure": [
+    {"id": "four_steps", "kind": "substance", "type": "count_regex", "pattern": "^\\s*\\d+\\.\\s", "flags": "m", "min": 4},
+    {"id": "ui_bold_environments", "kind": "substance", "type": "contains", "text": "**Environments**"},
+    {"id": "ui_bold_new", "kind": "substance", "type": "contains", "text": "**New Environment**"},
+    {"id": "ui_bold_save", "kind": "substance", "type": "contains", "text": "**Save**"},
+    {"id": "timing_kept", "kind": "substance", "type": "regex", "pattern": "few seconds", "flags": "i"}
+  ],
+  "06-code-and-flag": [
+    {"id": "code_unchanged", "kind": "substance", "type": "code_block_exact"},
+    {"id": "verify_flag_unchanged", "kind": "substance", "type": "contains", "text": "[VERIFY: confirm the default port with engineering]"},
+    {"id": "timing_kept", "kind": "substance", "type": "regex", "pattern": "30 seconds", "flags": "i"}
+  ]
+}

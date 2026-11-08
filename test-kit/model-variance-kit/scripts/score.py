@@ -1,0 +1,188 @@
+#!/usr/bin/env python3
+"""Score every logged call. Deterministic: no model calls.
+
+Usage:
+  python3 scripts/score.py                 # scores results/raw
+  python3 scripts/score.py --raw results/raw-dryrun
+
+Writes to results/scored/:
+  drafting_runs.csv   one row per drafting call: scanner counts + every substance check
+  eval_runs.csv       one row per eval call: true hits, missed, distractor hits, unplanted, parse status
+  summary.md          per model: mean, min and max across runs (the spread is the point)
+  blind/              shuffled drafting outputs with codes, for human scoring; blind_key.csv is separate
+Failed calls are counted and reported, never dropped.
+"""
+import argparse, csv, json, pathlib, random, re, statistics as st, sys
+
+KIT = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(KIT / "scripts"))
+from check_ai_tone import check, BLOCKERS, WARNINGS  # the house scanner, unmodified
+
+CODE = re.compile(r"```.*?```", re.S)
+
+
+def load(raw):
+    recs = []
+    for p in sorted(raw.glob("*.jsonl")):
+        recs += [json.loads(l) for l in p.read_text().splitlines() if l.strip()]
+    return recs
+
+
+def run_check(c, text, source):
+    flags = re.I if "i" in c.get("flags", "") else 0
+    flags |= re.M if "m" in c.get("flags", "") else 0
+    t = c["type"]
+    if t == "contains":
+        return c["text"] in text
+    if t == "regex":
+        return bool(re.search(c["pattern"], text, flags))
+    if t == "count_regex":
+        return len(re.findall(c["pattern"], text, flags)) >= c["min"]
+    if t == "code_block_exact":
+        return CODE.findall(source) == CODE.findall(text)
+    raise ValueError(t)
+
+
+def strip_fences(s):
+    s = s.strip()
+    s = re.sub(r"^```(?:markdown|md|json)?\s*\n", "", s)
+    return re.sub(r"\n```\s*$", "", s)
+
+
+def score_drafting(recs, checks, outdir):
+    rows = []
+    for r in recs:
+        row = {"model": r["model_requested"], "input": r["input_id"], "run": r["run"], "ok": r["ok"]}
+        if r["ok"]:
+            text = strip_fences(r["text"])
+            src = (KIT / "inputs" / f"{r['input_id']}.md").read_text()
+            f = check(text)
+            row["blockers"] = sum(len(f[k]) for k in BLOCKERS)
+            row["warnings"] = sum(len(f[k]) for k in WARNINGS)
+            for k in BLOCKERS + WARNINGS:
+                row[f"scan_{k}"] = len(f[k])
+            subs = [c for c in checks.get(r["input_id"], []) if c["kind"] == "substance"]
+            for c in checks.get(r["input_id"], []):
+                row[f"{c['kind']}_{c['id']}"] = run_check(c, text, src)
+            row["substance_lost"] = sum(1 for c in subs if not row[f"substance_{c['id']}"])
+            row["chars_out"] = len(text)
+        rows.append(row)
+    write_csv(rows, outdir / "drafting_runs.csv")
+    return rows
+
+
+def score_eval(recs, key, outdir):
+    rows = []
+    for r in recs:
+        row = {"model": r["model_requested"], "run": r["run"], "ok": r["ok"]}
+        if r["ok"]:
+            try:
+                items = json.loads(strip_fences(r["text"]))
+                row["parsed"] = True
+            except Exception:
+                items, row["parsed"] = [], False
+            hit, dist, unplanted, rule_ok = set(), set(), [], 0
+            for it in items:
+                q = str(it.get("quote", "")) if isinstance(it, dict) else str(it)
+                v = next((v for v in key["violations"] if any(m in q for m in v["match"])), None)
+                if v:
+                    if v["id"] not in hit and str(it.get("rule", "")).strip() == str(v["rule"]):
+                        rule_ok += 1
+                    hit.add(v["id"])
+                    continue
+                d = next((d for d in key["distractors"] if any(m in q for m in d["match"])), None)
+                if d:
+                    dist.add(d["id"])
+                else:
+                    unplanted.append(q)
+            n = len(key["violations"])
+            row.update({"reported": len(items), "planted_found": len(hit), "planted_missed": n - len(hit),
+                        "recall": round(len(hit) / n, 3), "rule_number_correct": rule_ok,
+                        "distractor_hits": len(dist), "distractors": ";".join(sorted(dist)),
+                        "missed": ";".join(v["id"] for v in key["violations"] if v["id"] not in hit),
+                        "unplanted_for_review": " || ".join(unplanted)})
+        rows.append(row)
+    write_csv(rows, outdir / "eval_runs.csv")
+    return rows
+
+
+def write_csv(rows, path):
+    if not rows:
+        return
+    cols = list(dict.fromkeys(k for r in rows for k in r))
+    with path.open("w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        w.writerows(rows)
+
+
+def spread(vals):
+    vals = [v for v in vals if v is not None]
+    if not vals:
+        return "n/a"
+    return f"{st.mean(vals):.2f} (min {min(vals)}, max {max(vals)})"
+
+
+def summary(d_rows, e_rows, outdir):
+    out = ["# Results summary", "",
+           "Generated by scripts/score.py. Mean across runs, with min and max. Small n: illustrative, not a benchmark.", ""]
+    if d_rows:
+        out += ["## Drafting", "", "| Model | Input | Runs ok/total | Blockers | Substance checks lost |",
+                "| --- | --- | --- | --- | --- |"]
+        for m in sorted({r["model"] for r in d_rows}):
+            for i in sorted({r["input"] for r in d_rows}):
+                rs = [r for r in d_rows if r["model"] == m and r["input"] == i]
+                ok = [r for r in rs if r["ok"]]
+                out.append(f"| {m} | {i} | {len(ok)}/{len(rs)} | {spread([r['blockers'] for r in ok])} | "
+                           f"{spread([r['substance_lost'] for r in ok])} |")
+        out.append("")
+    if e_rows:
+        out += ["## Evaluation (12 planted violations, 4 distractors)", "",
+                "| Model | Runs ok/total | Unparseable | Planted found | Distractor hits | Unplanted flags (review) |",
+                "| --- | --- | --- | --- | --- | --- |"]
+        for m in sorted({r["model"] for r in e_rows}):
+            rs = [r for r in e_rows if r["model"] == m]
+            ok = [r for r in rs if r["ok"]]
+            out.append(f"| {m} | {len(ok)}/{len(rs)} | {sum(1 for r in ok if not r['parsed'])} | "
+                       f"{spread([r['planted_found'] for r in ok])} | {spread([r['distractor_hits'] for r in ok])} | "
+                       f"{sum(1 for r in ok if r['unplanted_for_review'])} runs |")
+        out.append("")
+    (outdir / "summary.md").write_text("\n".join(out))
+
+
+def blind(recs, outdir, seed):
+    b = outdir / "blind"
+    b.mkdir(exist_ok=True)
+    ok = [r for r in recs if r["ok"]]
+    random.Random(seed).shuffle(ok)
+    key = []
+    for n, r in enumerate(ok, 1):
+        code = f"S{n:03d}"
+        src = (KIT / "inputs" / f"{r['input_id']}.md").read_text()
+        (b / f"{code}.md").write_text(f"# {code}\n\n## Original\n\n{src}\n\n## Rewrite\n\n{strip_fences(r['text'])}\n")
+        key.append({"code": code, "model": r["model_requested"], "input": r["input_id"], "run": r["run"]})
+    write_csv(key, outdir / "blind_key.csv")
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--raw", default=str(KIT / "results" / "raw"))
+    ap.add_argument("--seed", type=int, default=20261107)
+    a = ap.parse_args()
+    raw = pathlib.Path(a.raw)
+    recs = load(raw)
+    if not recs:
+        sys.exit(f"No .jsonl files in {raw}")
+    outdir = raw.resolve().parent / ("scored-dryrun" if "dryrun" in raw.name else "scored")
+    outdir.mkdir(parents=True, exist_ok=True)
+    checks = json.loads((KIT / "inputs/checks.json").read_text())
+    key = json.loads((KIT / "eval/answer_key.json").read_text())
+    d = score_drafting([r for r in recs if r["task"] == "drafting"], checks, outdir)
+    e = score_eval([r for r in recs if r["task"] == "eval"], key, outdir)
+    summary(d, e, outdir)
+    blind([r for r in recs if r["task"] == "drafting"], outdir, a.seed)
+    print(f"Scored {len(recs)} calls ({sum(1 for r in recs if not r['ok'])} failed). Output: {outdir.relative_to(KIT)}")
+
+
+if __name__ == "__main__":
+    main()

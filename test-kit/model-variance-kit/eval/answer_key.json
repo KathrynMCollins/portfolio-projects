@@ -1,0 +1,23 @@
+{
+  "note": "12 planted violations and 4 distractors in eval/planted_draft.md. A reported quote matches an item if it contains any of the item's match strings. Unmatched quotes are 'unplanted' and go to human review; they are not automatically false positives.",
+  "violations": [
+    {"id": "V01", "rule": 1,  "desc": "em dashes around an aside",          "match": ["\u2014"]},
+    {"id": "V02", "rule": 4,  "desc": "hedged capability verb",             "match": ["is designed to", "designed to"]},
+    {"id": "V03", "rule": 3,  "desc": "AI-tell phrase",                      "match": ["Let's take a look", "take a look at"]},
+    {"id": "V04", "rule": 2,  "desc": "buzzword: robust",                    "match": ["robust"]},
+    {"id": "V05", "rule": 3,  "desc": "AI-tell phrase",                      "match": ["important to note"]},
+    {"id": "V06", "rule": 11, "desc": "e.g.",                                "match": ["e.g."]},
+    {"id": "V07", "rule": 8,  "desc": "'you' in a numbered step",            "match": ["You click", "You click **New Rule**"]},
+    {"id": "V08", "rule": 1,  "desc": "en dash in a numeric range",          "match": ["5\u201310", "\u2013"]},
+    {"id": "V09", "rule": 3,  "desc": "AI-tell phrase",                      "match": ["By following these steps", "following these steps"]},
+    {"id": "V10", "rule": 2,  "desc": "buzzword: leverage",                  "match": ["leverage"]},
+    {"id": "V11", "rule": 2,  "desc": "buzzword: seamlessly",                "match": ["seamlessly"]},
+    {"id": "V12", "rule": 10, "desc": "italics",                             "match": ["*Rules are evaluated", "Rules are evaluated top to bottom"]}
+  ],
+  "distractors": [
+    {"id": "D01", "desc": "legitimate permission 'you'",     "match": ["You need Admin", "Admin permissions"]},
+    {"id": "D02", "desc": "product name, not a buzzword",    "match": ["Harness"]},
+    {"id": "D03", "desc": "hyphen range inside a code block", "match": ["--max-time", "5-10"]},
+    {"id": "D04", "desc": "hyphenated compound",             "match": ["Read-only", "read-only"]}
+  ]
+}

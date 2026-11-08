@@ -1,0 +1,61 @@
+review_id,in_sample,model,input,run,meaning,natural,note
+B004,True,claude-sonnet-5-5,01-caveat-dash,4,no,2,
+B005,True,claude-opus-5-5,06-code-and-flag,2,partly,2,
+B008,True,claude-opus-4-7,04-legit-just,4,yes,2,
+B010,True,claude-opus-4-7,05-procedure,2,yes,3,
+B016,True,claude-sonnet-5-5,04-legit-just,4,yes,3,
+B023,True,claude-opus-4-7,06-code-and-flag,1,yes,2,
+B027,True,claude-opus-4-7,03-product-name,2,yes,3,
+B032,True,claude-opus-4-7,05-procedure,1,yes,3,
+B034,True,claude-haiku-5-5,05-procedure,4,yes,2,
+B037,True,claude-haiku-5-5,01-caveat-dash,4,yes,2,
+B041,True,claude-sonnet-5-5,01-caveat-dash,1,yes,3,
+B045,True,claude-opus-5-5,06-code-and-flag,1,partly,2,
+B046,True,claude-fable-5-1,06-code-and-flag,1,partly,2,
+B047,True,claude-fable-5-1,03-product-name,4,yes,3,
+B048,True,claude-haiku-5-5,04-legit-just,2,yes,2,
+B049,True,claude-sonnet-5-5,06-code-and-flag,3,yes,2,
+B052,True,claude-opus-4-7,01-caveat-dash,4,partly,1,
+B055,True,claude-sonnet-5-5,05-procedure,2,yes,3,
+B059,True,claude-fable-5-1,02-you-and-permission,1,yes,1,Way too many headers
+B061,True,claude-sonnet-5-5,03-product-name,5,partly,2,
+B062,True,claude-fable-5-1,01-caveat-dash,2,partly,1,The information order has changed - the last paragraph needs to be up higher
+B063,True,claude-opus-5-5,02-you-and-permission,3,partly,1,"Way too many headers, order of information changed"
+B065,True,claude-sonnet-5-5,04-legit-just,3,yes,2,
+B068,True,claude-haiku-5-5,05-procedure,2,yes,2,
+B069,True,claude-haiku-5-5,03-product-name,3,yes,3,
+B074,True,claude-haiku-5-5,06-code-and-flag,4,yes,2,
+B075,True,claude-opus-5-5,04-legit-just,3,partly,1,Too many headers
+B078,True,claude-opus-5-5,04-legit-just,1,yes,1,"Too many headers, risk losing context"
+B080,True,claude-opus-4-7,06-code-and-flag,5,yes,2,
+B082,True,claude-opus-4-7,02-you-and-permission,1,yes,1,Way too many headers
+B083,True,claude-sonnet-5-5,05-procedure,3,yes,3,
+B084,True,claude-fable-5-1,05-procedure,1,yes,3,
+B085,True,claude-opus-5-5,03-product-name,4,yes,3,
+B087,True,claude-haiku-5-5,02-you-and-permission,1,yes,1,Awkwardly broken up
+B089,True,claude-opus-4-7,01-caveat-dash,5,partly,1,Breaks standard format
+B091,True,claude-sonnet-5-5,02-you-and-permission,3,no,1,Too many headers
+B092,True,claude-fable-5-1,03-product-name,2,yes,3,
+B093,True,claude-opus-4-7,03-product-name,1,yes,2,
+B097,True,claude-haiku-5-5,02-you-and-permission,5,yes,1,Added causal with no evidence. We do not include Prerequisite field
+B098,True,claude-sonnet-5-5,03-product-name,3,yes,2,
+B099,True,claude-haiku-5-5,01-caveat-dash,2,yes,3,
+B102,True,claude-fable-5-1,01-caveat-dash,3,yes,1,Unecessary break creates micro-paragraph
+B105,True,claude-opus-5-5,03-product-name,1,yes,2,
+B107,True,claude-fable-5-1,06-code-and-flag,3,yes,2,
+B108,True,claude-opus-5-5,05-procedure,4,yes,3,
+B111,True,claude-opus-5-5,01-caveat-dash,2,partly,1,Reordered information breaks continuity
+B112,True,claude-opus-5-5,05-procedure,2,yes,3,
+B121,True,claude-haiku-5-5,03-product-name,2,yes,3,
+B122,True,claude-haiku-5-5,04-legit-just,4,yes,2,
+B123,True,claude-opus-5-5,01-caveat-dash,4,yes,2,
+B134,True,claude-opus-5-5,02-you-and-permission,4,partly,1,"No prerequisite line or before you start, reordered information matters"
+B135,True,claude-haiku-5-5,06-code-and-flag,3,yes,2,
+B138,True,claude-fable-5-1,05-procedure,4,yes,3,
+B141,True,claude-opus-4-7,02-you-and-permission,5,partly,1,"Too many headings, reordered info is broken"
+B142,True,claude-fable-5-1,02-you-and-permission,3,yes,1,Unecessary headings and unecessary bolding
+B143,True,claude-sonnet-5-5,06-code-and-flag,5,yes,2,Why verify at end so strange
+B145,True,claude-fable-5-1,04-legit-just,4,yes,1,Too many headings
+B146,True,claude-fable-5-1,04-legit-just,3,yes,1,"Too many headings, too wordy"
+B147,True,claude-sonnet-5-5,02-you-and-permission,4,yes,1,"Too many headings, order has changed"
+B148,True,claude-opus-4-7,04-legit-just,2,yes,1,Too many headings

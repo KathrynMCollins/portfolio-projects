@@ -1,0 +1,15 @@
+{
+  "prompt/system.md": "6ff094e4e029db3a",
+  "prompt/drafting_user.md": "bc73eb15e0cae38d",
+  "prompt/eval_user.md": "d53d00c2725dcd43",
+  "eval/planted_draft.md": "f4f7e1dfa405775d",
+  "eval/answer_key.json": "8d6a957908f978b1",
+  "inputs/checks.json": "b00b0446cd2989d4",
+  "PREREGISTRATION.md": "5baa5c5cd2155b9f",
+  "inputs/01-caveat-dash.md": "74115cd266c35846",
+  "inputs/02-you-and-permission.md": "815efebdcbca3f05",
+  "inputs/03-product-name.md": "300dbfa2dea05753",
+  "inputs/04-legit-just.md": "e23b1b98765c81b3",
+  "inputs/05-procedure.md": "975ce30a6a12bf1f",
+  "inputs/06-code-and-flag.md": "7aa8c0a85815fabd"
+}

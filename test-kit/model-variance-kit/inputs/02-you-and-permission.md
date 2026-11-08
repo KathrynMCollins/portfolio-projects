@@ -1,0 +1,1 @@
+You can create maintenance plans to suppress alerts during planned work. You'll see the plan appear in the list once you save it, and you can stop it early if you need to. You need Admin permissions to create or edit a maintenance plan. You may want to notify your team before you start a plan.

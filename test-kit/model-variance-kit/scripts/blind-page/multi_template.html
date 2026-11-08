@@ -1,0 +1,278 @@
+<title>__TITLE__</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a proof desk. Sticky progress strip, two galleys side by side, a marking bar under them. */
+:root {
+  --paper: #f5f6f8;
+  --sheet: #ffffff;
+  --ink: #1b2330;
+  --muted: #5d6878;
+  --rule: #d9dee6;
+  --accent: #1f5fa8;
+  --accent-ink: #ffffff;
+  --mark-yes: #2f7d4f;
+  --mark-partly: #a76a12;
+  --mark-no: #b23b3b;
+  --tint: #e8eef7;
+  --display: "Literata", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12161d; --sheet: #1a2029; --ink: #e3e8ef; --muted: #9aa5b4; --rule: #2d3542;
+    --accent: #6ea2e3; --accent-ink: #0d1520; --mark-yes: #5fbf86; --mark-partly: #e0a548; --mark-no: #ec7b7b; --tint: #1f2a39;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12161d; --sheet: #1a2029; --ink: #e3e8ef; --muted: #9aa5b4; --rule: #2d3542;
+  --accent: #6ea2e3; --accent-ink: #0d1520; --mark-yes: #5fbf86; --mark-partly: #e0a548; --mark-no: #ec7b7b; --tint: #1f2a39;
+  color-scheme: dark;
+}
+html, body { background: var(--paper); color: var(--ink); }
+body { font: 15px/1.5 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--sheet); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--sheet); border-bottom: 1px solid var(--rule); }
+header .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; padding-block: 12px; }
+h1 { font: 600 1.15rem/1.2 var(--display); margin: 0; text-wrap: balance; }
+.progress { flex: 1 1 220px; display: flex; align-items: center; gap: 10px; min-width: 0; }
+.track { flex: 1; height: 6px; border-radius: 3px; background: var(--tint); overflow: hidden; }
+.fill { height: 100%; width: 0; background: var(--accent); transition: width .25s ease; }
+.count { font: 500 .85rem var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.save { font-size: .8rem; color: var(--muted); white-space: nowrap; }
+main .wrap { display: grid; gap: 18px; padding-block: 18px 40px; }
+.itemhead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; }
+.rid { font: 600 1.6rem/1 var(--display); font-variant-numeric: tabular-nums; }
+.state { font: 500 .72rem var(--body); text-transform: uppercase; letter-spacing: .06em; padding: 3px 8px; border-radius: 999px; background: var(--tint); color: var(--muted); }
+.state.done { background: var(--mark-yes); color: var(--sheet); }
+.pos { color: var(--muted); font-size: .85rem; }
+.galleys { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 760px) { .galleys { grid-template-columns: 1fr; } }
+.galley { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; min-width: 0; display: flex; flex-direction: column; }
+.galley h2 { margin: 0; padding: 10px 14px; border-bottom: 1px solid var(--rule); font: 600 .75rem var(--body); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.galley.rewrite h2 { color: var(--accent); }
+.galley pre { margin: 0; padding: 14px; font: 400 .84rem/1.6 var(--mono); white-space: pre-wrap; overflow-wrap: anywhere; min-width: 0; }
+.marking { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding: 14px; display: grid; gap: 14px; }
+.row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.label { font: 600 .78rem var(--body); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); min-width: 150px; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.seg button { font: 500 .9rem var(--body); background: transparent; color: var(--ink); border: 0; border-right: 1px solid var(--rule); padding: 7px 14px; cursor: pointer; }
+.seg button:last-child { border-right: 0; }
+.seg button:hover { background: var(--tint); }
+.seg button kbd { font: 400 .7rem var(--mono); color: var(--muted); margin-left: 6px; }
+.seg button[aria-pressed="true"] { color: var(--sheet); }
+.seg button[aria-pressed="true"] kbd { color: inherit; opacity: .8; }
+.seg button[data-v="yes"][aria-pressed="true"] { background: var(--mark-yes); }
+.seg button[data-v="partly"][aria-pressed="true"] { background: var(--mark-partly); }
+.seg button[data-v="no"][aria-pressed="true"] { background: var(--mark-no); }
+.seg.nat button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+textarea { width: 100%; box-sizing: border-box; min-height: 64px; font: .9rem/1.5 var(--body); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px; resize: vertical; }
+.nav { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn { font: 500 .88rem var(--body); padding: 8px 14px; border-radius: 6px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); cursor: pointer; }
+.btn:hover { background: var(--tint); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn:disabled { opacity: .45; cursor: default; }
+.spacer { flex: 1; }
+select { font: .88rem var(--body); padding: 7px 8px; border-radius: 6px; border: 1px solid var(--rule); background: var(--sheet); color: var(--ink); max-width: 100%; }
+button:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.notice { font-size: .85rem; color: var(--muted); }
+.notice strong { color: var(--ink); }
+.rubric { font-size: .85rem; color: var(--muted); max-width: 70ch; }
+.export { display: grid; gap: 8px; }
+.export textarea { font: .78rem var(--mono); min-height: 120px; }
+@media (prefers-reduced-motion: reduce) { .fill { transition: none; } }
+</style>
+
+<header class="bar">
+  <div class="wrap">
+    <h1>__TITLE__</h1>
+    <div class="progress"><div class="track"><div class="fill" id="fill"></div></div><span class="count" id="count">0 / 0 scored</span></div>
+    <span class="count" id="scount" hidden></span>
+    <span class="save" id="save" aria-live="polite">Connecting…</span>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <p class="rubric">Model variance kit, pre-registered rubric. For each rewrite: is the meaning preserved, and does it read naturally? Note any change you would reject as an editor. <strong>The page opens on the baseline sample</strong>: 60 rewrites made without the style standard, two per model and input. The guided sample you already scored and the full sets are in the menu. Sheets are shuffled; nothing here says which model wrote them. Don't open <code>blind_key.csv</code> or the review maps until you've finished.</p>
+
+    <div class="nav"><label class="label" for="viewSel">Showing</label><select id="viewSel"></select></div>
+
+    <div class="itemhead">
+      <span class="rid" id="rid">R001</span>
+      <span class="state" id="state">Not scored</span>
+      <span class="pos" id="pos"></span>
+    </div>
+
+    <div class="galleys">
+      <section class="galley"><h2>Original</h2><pre id="orig"></pre></section>
+      <section class="galley rewrite"><h2>Rewrite</h2><pre id="rew"></pre></section>
+    </div>
+
+    <section class="marking" aria-label="Score this rewrite">
+      <div class="row">
+        <span class="label" id="lm">Meaning preserved</span>
+        <div class="seg" role="group" aria-labelledby="lm" id="meaning">
+          <button type="button" data-v="yes" aria-pressed="false">Yes<kbd>Y</kbd></button>
+          <button type="button" data-v="partly" aria-pressed="false">Partly<kbd>P</kbd></button>
+          <button type="button" data-v="no" aria-pressed="false">No<kbd>N</kbd></button>
+        </div>
+      </div>
+      <div class="row">
+        <span class="label" id="ln">Reads naturally</span>
+        <div class="seg nat" role="group" aria-labelledby="ln" id="natural">
+          <button type="button" data-v="1" aria-pressed="false">1 Stilted<kbd>1</kbd></button>
+          <button type="button" data-v="2" aria-pressed="false">2 Acceptable<kbd>2</kbd></button>
+          <button type="button" data-v="3" aria-pressed="false">3 Natural<kbd>3</kbd></button>
+        </div>
+      </div>
+      <div>
+        <label class="label" for="note">Editor note (changes you would reject)</label>
+        <textarea id="note" placeholder="Optional"></textarea>
+      </div>
+      <div class="nav">
+        <button class="btn" id="prev" type="button">← Previous</button>
+        <button class="btn" id="next" type="button">Next →</button>
+        <button class="btn primary" id="nextUn" type="button">Next unscored</button>
+        <span class="spacer"></span>
+        <label class="notice" for="jump">Go to</label>
+        <select id="jump"></select>
+      </div>
+    </section>
+
+    <section class="export">
+      <div class="nav">
+        <button class="btn" id="dl" type="button">Download scores (CSV)</button>
+        <button class="btn" id="copy" type="button">Copy CSV</button>
+        <span class="notice" id="exportMsg"></span>
+      </div>
+      <textarea id="csvOut" hidden readonly aria-label="Scores as CSV"></textarea>
+      <p class="notice">Keys: Y / P / N for meaning, 1 / 2 / 3 for naturalness, ← → to move. Scores save as you mark them.</p>
+    </section>
+  </div>
+</main>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  const DATA = JSON.parse(document.getElementById("data").textContent);
+  const BYID = {}; DATA.items.forEach(it => { BYID[it.id] = it; });
+  const ALL = DATA.items;
+  const VIEWS = DATA.views;
+  const SN = 0;
+  let showAll = false, view = 0;
+  let items = VIEWS[0].ids.map(id => BYID[id]);
+  const scores = {};
+  let idx = 0, coll = null, mode = "connecting", noteTimer = null;
+  const LS = "blind-scores-v1";
+  const $ = (id) => document.getElementById(id);
+
+  function lsLoad() { try { return JSON.parse(localStorage.getItem(LS) || "{}"); } catch (e) { return {}; } }
+  function lsSave() { try { localStorage.setItem(LS, JSON.stringify(scores)); } catch (e) {} }
+  function isDone(s) { return !!(s && s.meaning && s.natural); }
+  function setSave(t) { $("save").textContent = t; }
+
+  const jump = $("jump");
+  function buildJump() { jump.textContent = ""; items.forEach((it, i) => { const o = document.createElement("option"); o.value = i; o.textContent = it.id; jump.appendChild(o); }); }
+  buildJump();
+  function setView(v) {
+    view = v; items = VIEWS[v].ids.map(id => BYID[id]); idx = 0; buildJump(); render();
+  }
+
+  function render() {
+    const it = items[idx], s = scores[it.id] || {};
+    $("rid").textContent = it.id;
+    $("orig").textContent = DATA.originals[it.o];
+    $("rew").textContent = it.r;
+    $("pos").textContent = (idx + 1) + " of " + items.length + (showAll ? (idx < SN ? " · sample" : " · beyond the sample") : "");
+    const st = $("state"); st.textContent = isDone(s) ? "Scored" : (s.meaning || s.natural ? "Partly scored" : "Not scored"); st.classList.toggle("done", isDone(s));
+    document.querySelectorAll("#meaning button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === s.meaning)));
+    document.querySelectorAll("#natural button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === String(s.natural || ""))));
+    if (document.activeElement !== $("note")) $("note").value = s.note || "";
+    $("prev").disabled = idx === 0; $("next").disabled = idx === items.length - 1;
+    jump.value = idx;
+    renderProgress();
+  }
+  function renderProgress() {
+    const n = items.filter(it => isDone(scores[it.id])).length;
+    $("count").textContent = n + " / " + items.length + " scored";
+    $("fill").style.width = (100 * n / items.length) + "%";
+    if (SN && showAll) { const sd = ALL.slice(0, SN).filter(it => isDone(scores[it.id])).length; const sc = $("scount"); sc.hidden = false; sc.textContent = "Sample " + sd + " / " + SN; } else { $("scount").hidden = true; }
+    Array.from(jump.options).forEach((o, i) => { o.textContent = items[i].id + (isDone(scores[items[i].id]) ? " ✓" : ""); });
+  }
+
+  function save(id, patch) {
+    const next = Object.assign({}, scores[id] || {}, patch, { updatedAt: new Date().toISOString() });
+    scores[id] = next;
+    render();
+    if (coll) {
+      setSave("Saving…");
+      coll.doc(id).set(next).then(() => setSave("Saved")).catch(e => { setSave("Not saved: " + (e && e.code === "permission_denied" ? "only the owner can save scores" : (e && e.message) || "error")); });
+    } else { lsSave(); setSave("Saved in this browser only"); }
+  }
+
+  $("meaning").addEventListener("click", e => { const b = e.target.closest("button"); if (b) save(items[idx].id, { meaning: b.dataset.v }); });
+  $("natural").addEventListener("click", e => { const b = e.target.closest("button"); if (b) save(items[idx].id, { natural: Number(b.dataset.v) }); });
+  $("note").addEventListener("input", () => { const id = items[idx].id, v = $("note").value; clearTimeout(noteTimer); noteTimer = setTimeout(() => save(id, { note: v }), 700); });
+  $("note").addEventListener("blur", () => { const id = items[idx].id, v = $("note").value; if ((scores[id] || {}).note !== v && v !== "") { clearTimeout(noteTimer); save(id, { note: v }); } });
+
+  function go(i) { if (noteTimer) { clearTimeout(noteTimer); const id = items[idx].id, v = $("note").value; if ((scores[id] || {}).note !== v) save(id, { note: v }); } idx = Math.max(0, Math.min(items.length - 1, i)); $("note").blur(); render(); }
+  $("prev").onclick = () => go(idx - 1);
+  $("next").onclick = () => go(idx + 1);
+  $("nextUn").onclick = () => { for (let j = 0; j < Math.min(SN, items.length); j++) { if (j !== idx && !isDone(scores[items[j].id])) return go(j); } for (let k = 1; k <= items.length; k++) { const j = (idx + k) % items.length; if (!isDone(scores[items[j].id])) return go(j); } $("save").textContent = (VIEWS[view].name + ": all scored"); };
+  jump.onchange = () => go(Number(jump.value));
+
+  document.addEventListener("keydown", e => {
+    if (e.target.closest("textarea, select, input") || e.metaKey || e.ctrlKey || e.altKey) return;
+    const k = e.key.toLowerCase(), id = items[idx].id;
+    const m = { y: "yes", p: "partly", n: "no" }[k];
+    if (m) { save(id, { meaning: m }); e.preventDefault(); }
+    else if (["1", "2", "3"].includes(k)) { save(id, { natural: Number(k) }); e.preventDefault(); }
+    else if (e.key === "ArrowRight") { go(idx + 1); e.preventDefault(); }
+    else if (e.key === "ArrowLeft") { go(idx - 1); e.preventDefault(); }
+  });
+
+  function csv() {
+    const q = v => '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"';
+    const lines = ["review_id,meaning_preserved,reads_naturally,note,updated_at"];
+    ALL.forEach(it => { const s = scores[it.id] || {}; lines.push([it.id, s.meaning || "", s.natural || "", q(s.note || ""), s.updatedAt || ""].join(",")); });
+    return lines.join("\n") + "\n";
+  }
+  let downloads = null;
+  $("dl").onclick = async () => {
+    if (!downloads) { $("exportMsg").textContent = "Downloads aren't available here. Use Copy CSV."; return; }
+    try { await downloads.save({ filename: "blind-scores.csv", data: csv() }); $("exportMsg").textContent = "Download started."; }
+    catch (e) { $("exportMsg").textContent = e && e.code === "declined" ? "Download cancelled." : "Download failed. Use Copy CSV."; }
+  };
+  $("copy").onclick = () => {
+    const t = csv(), box = $("csvOut");
+    navigator.clipboard.writeText(t).then(() => { $("exportMsg").textContent = "CSV copied."; box.hidden = true; })
+      .catch(() => { box.value = t; box.hidden = false; box.select(); $("exportMsg").textContent = "Copy blocked. Select the text below and copy it."; });
+  };
+
+  Object.assign(scores, lsLoad());
+  const vs = $("viewSel");
+  VIEWS.forEach((v, i) => { const o = document.createElement("option"); o.value = i; o.textContent = v.name + " (" + v.ids.length + ")"; vs.appendChild(o); });
+  vs.onchange = () => setView(Number(vs.value));
+  setView(0);
+
+  (async () => {
+    try { downloads = await window.claude.use("downloads"); } catch (e) {}
+    let db = null;
+    try { db = await window.claude.use("db"); } catch (e) {}
+    if (!db) { mode = "local"; setSave("Saving in this browser only"); return; }
+    coll = db.collection("scores");
+    const timer = setTimeout(() => setSave("Still loading saved scores…"), 10000);
+    coll.limit(1000).onSnapshot(snap => {
+      clearTimeout(timer);
+      snap.docs.forEach(d => { const v = d.data(); if (v) scores[d.id] = v; });
+      setSave("Saved scores loaded");
+      render();
+    }, err => { clearTimeout(timer); setSave("Couldn't load saved scores: " + ((err && err.message) || "error")); });
+  })();
+})();
+</script>

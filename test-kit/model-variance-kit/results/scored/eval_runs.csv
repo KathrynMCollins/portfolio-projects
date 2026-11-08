@@ -1,0 +1,16 @@
+model,run,ok,parsed,reported,planted_found,planted_missed,recall,rule_number_correct,distractor_hits,distractors,missed,unplanted_for_review
+claude-haiku-5-5,1,True,True,12,12,0,1.0,12,0,,,
+claude-haiku-5-5,2,True,True,12,12,0,1.0,12,0,,,
+claude-haiku-5-5,3,True,True,13,12,0,1.0,12,0,,,
+claude-haiku-5-5,4,True,True,13,12,0,1.0,12,0,,,
+claude-haiku-5-5,5,True,True,12,12,0,1.0,12,0,,,
+claude-opus-5-5,1,True,True,15,12,0,1.0,11,0,,,
+claude-opus-5-5,2,True,True,14,12,0,1.0,11,0,,,
+claude-opus-5-5,3,True,True,14,12,0,1.0,11,0,,,
+claude-opus-5-5,4,True,True,14,12,0,1.0,11,0,,,
+claude-opus-5-5,5,True,True,14,12,0,1.0,11,0,,,
+claude-sonnet-5-5,1,True,True,12,12,0,1.0,12,0,,,
+claude-sonnet-5-5,2,True,True,13,12,0,1.0,12,0,,,The rule takes effect in
+claude-sonnet-5-5,3,True,True,13,12,0,1.0,12,0,,,
+claude-sonnet-5-5,4,True,True,13,12,0,1.0,12,0,,,
+claude-sonnet-5-5,5,True,True,13,12,0,1.0,12,0,,,

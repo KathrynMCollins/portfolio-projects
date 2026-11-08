@@ -1,0 +1,26 @@
+model,run,ok,parsed,reported,planted_found,planted_missed,recall,rule_number_correct,distractor_hits,distractors,missed,unplanted_for_review
+claude-fable-5-1,1,True,True,15,9,3,0.75,0,4,D01;D02;D03;D04,V01;V10;V11,"v2.1 || owner, service, and region"
+claude-fable-5-1,2,True,True,13,10,2,0.833,0,2,D03;D04,V10;V11,```bash
+claude-fable-5-1,3,True,True,14,9,3,0.75,0,3,D01;D03;D04,V01;V10;V11,-X GET
+claude-fable-5-1,4,True,True,14,9,3,0.75,0,4,D01;D02;D03;D04,V01;V10;V11,```bash
+claude-fable-5-1,5,True,True,14,9,3,0.75,0,4,D01;D02;D03;D04,V01;V10;V11,```bash
+claude-haiku-5-5,1,True,True,11,9,3,0.75,0,2,D03;D04,V01;V10;V11,
+claude-haiku-5-5,2,True,True,15,10,2,0.833,0,3,D02;D03;D04,V09;V11,Enter a tag name and a match condition. || curl -X GET https://api.example.com/v2.1/enrichments
+claude-haiku-5-5,3,True,True,11,9,3,0.75,0,2,D03;D04,V01;V10;V11,
+claude-haiku-5-5,4,True,True,13,10,2,0.833,0,3,D02;D03;D04,V10;V11,
+claude-haiku-5-5,5,True,True,13,9,3,0.75,0,3,D02;D03;D04,V01;V09;V11,<your_api_key>
+claude-opus-4-7,1,True,True,23,12,0,1.0,0,4,D01;D02;D03;D04,,a change to a rule applies to new alerts only || Rules are evaluated || <your_api_key> || ```bash || run in order
+claude-opus-4-7,2,True,True,22,12,0,1.0,0,3,D01;D03;D04,,"owner, service, and region || run in order || curl -X GET https://api.example.com/v2.1/enrichments || Let's"
+claude-opus-4-7,3,True,True,18,9,3,0.75,0,2,D03;D04,V02;V10;V11,run in order || a change to a rule applies to new alerts only || <your_api_key> || Open the **Enrichment** page. || Alert enrichment adds context to incoming alerts
+claude-opus-4-7,4,True,True,17,9,3,0.75,0,2,D03;D04,V01;V10;V11,"<your_api_key> || owner, service, and region || Alert enrichment adds context to incoming alerts || a change to a rule applies to new alerts only"
+claude-opus-4-7,5,True,True,19,11,1,0.917,0,4,D01;D02;D03;D04,V01,"<your_api_key> || owner, service, and region || a change to a rule applies to new alerts only || To create a rule:"
+claude-opus-5-5,1,True,True,15,11,1,0.917,0,3,D02;D03;D04,V01,curl -X GET https://api.example.com/v2.1/enrichments
+claude-opus-5-5,2,True,True,16,11,1,0.917,0,3,D02;D03;D04,V01,```bash || -X GET
+claude-opus-5-5,3,True,True,13,9,3,0.75,0,3,D02;D03;D04,V01;V10;V11,curl -X GET https://api.example.com/v2.1/enrichments
+claude-opus-5-5,4,True,True,16,11,1,0.917,0,4,D01;D02;D03;D04,V01,curl -X GET
+claude-opus-5-5,5,True,True,15,9,3,0.75,0,4,D01;D02;D03;D04,V01;V10;V11,```bash || -X GET
+claude-sonnet-5-5,1,True,True,10,8,4,0.667,0,2,D03;D04,V01;V06;V10;V11,
+claude-sonnet-5-5,2,True,True,13,9,3,0.75,0,3,D02;D03;D04,V01;V10;V11,curl -X GET https://api.example.com/v2.1/enrichments
+claude-sonnet-5-5,3,True,True,15,10,2,0.833,0,3,D01;D03;D04,V10;V11,-X GET || https://api.example.com/v2.1/enrichments
+claude-sonnet-5-5,4,True,True,15,9,3,0.75,0,4,D01;D02;D03;D04,V01;V10;V11,"a change to a rule applies to new alerts only || curl -X GET https://api.example.com/v2.1/enrichments -H ""Authorization: Bearer <your_api_key>"""
+claude-sonnet-5-5,5,True,True,12,9,3,0.75,0,2,D03;D04,V01;V10;V11,curl -X GET https://api.example.com/v2.1/enrichments
