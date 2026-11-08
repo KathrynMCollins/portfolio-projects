@@ -1,0 +1,16 @@
+<!-- Renders ```mermaid code blocks as diagrams, matching how GitHub shows them. -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var blocks = document.querySelectorAll("pre > code.language-mermaid");
+    if (!blocks.length || !window.mermaid) return;
+    blocks.forEach(function (code) {
+      var div = document.createElement("div");
+      div.className = "mermaid";
+      div.textContent = code.textContent;
+      code.parentNode.replaceWith(div);
+    });
+    window.mermaid.initialize({ startOnLoad: false, securityLevel: "strict" });
+    window.mermaid.run();
+  });
+</script>
