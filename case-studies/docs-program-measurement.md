@@ -1,6 +1,6 @@
 # Measuring a documentation program: from monthly workbooks to page-type goals
 
-**Type:** Case study: documentation program measurement, internal research and a writing standard
+**Type:** Case study: documentation program measurement, internal research and product manager training
 **When:** 2021 to 2023, with later use in 2026
 **Author:** Kathryn Collins
 **Tools:** Google Analytics (Universal Analytics, then GA4), spreadsheet pivot tables, an internal survey form
@@ -58,9 +58,9 @@ The answer to the exit-rate problem was a granular template. Every page was tagg
 
 Read this way, an exit from an instruction page is a finished task, and an exit from a landing page is a reader who found no way in. Lower time on page is the goal for instruction and endpoint pages because a reader looking up a step or a parameter is best served by finding it fast. The fourth-quarter 2022 baseline showed why this was needed: instruction pages had about twice the site's average exit rate, which the goals treat as success. A second goal table restated the same goals in GA4's terms, engagement time and bounce rate, so the targets would survive the change in tools.
 
-### 5. A writing standard (2022)
+### 5. Documentation training for product managers (2022)
 
-Measurement shows where docs fall short; a standard helps fix them. I taught a best-practices session from a deck first created in 2022, in four stages. Planning starts with audience: who needs the doc and why. Outlining goes big, then small: what, why and who, then where and how. Drafting walks through the steps while writing, keeps text short and consistent and gets a second reader. Revising includes adjusting to feedback. The session closed with templates for support ticket updates and bug reports: what is happening and where, what should happen, and how to reproduce it.
+Measurement shows where docs fall short; the people who own features help fix them. In May 2022 I trained product managers in four stages of writing: plan for the audience, outline big then small (what, why and who, then where and how), draft from existing templates and earlier versions in small tasks with a second reader, and revise, where small adjustments pay off. The October 2022 version, updated in 2023, moved from writing craft to the product manager's part in release docs: a meeting every two weeks with a technical writer on what is coming and when, a docs release checklist, specs sent ahead, and a review before release for accuracy, completeness, known limitations, who can validate and who will have access. The deck does not show which slides the 2023 update changed. The training set how release docs were planned and checked; the release comparisons in part 3 showed whether readers found them.
 
 ## Results
 
