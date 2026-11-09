@@ -3,7 +3,7 @@
 **Type:** Documentation management, with process design and automation
 **When:** September to October 2026
 **Tools:** Linear, Confluence, Slack, Python, TypeScript, a serverless host, GitHub Actions, Claude (AI audit step), Architecture Decision Records
-**Prepared for:** [Technical Editor, Editorial Publishing, Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5443997008)
+**Prepared for:** Content management and technical writing roles
 
 ## What this shows
 

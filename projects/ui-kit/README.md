@@ -3,7 +3,7 @@
 **Type:** Documentation management, with design systems and accessibility
 **When:** October to November 2026
 **Tools:** HTML, CSS custom properties (design tokens), vanilla JavaScript, axe-core, Playwright, Python, Claude Code
-**Prepared for:** [Technical Editor, Editorial Publishing, Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5443997008)
+**Prepared for:** Content management and technical writing roles
 
 ## What this shows
 

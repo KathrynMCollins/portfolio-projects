@@ -3,7 +3,7 @@
 **Type:** Documentation management, with systems design
 **When:** September 2026
 **Tools:** Playwright, TypeScript, YAML, Zod, Node.js, WebVTT captions, Claude Code
-**Prepared for:** [Technical Editor, Editorial Publishing, Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5443997008)
+**Prepared for:** Content management and technical writing roles
 
 ## What this shows
 

@@ -3,7 +3,7 @@
 **Type:** Documentation management, with technical writing and editing
 **When:** October to November 2026
 **Tools:** Apidog, OpenAPI, GitHub Actions, Python, Paligo, Vale, Claude Code
-**Prepared for:** [Technical Editor, Editorial Publishing, Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5443997008)
+**Prepared for:** Content management and technical writing roles
 
 ## What this shows
 

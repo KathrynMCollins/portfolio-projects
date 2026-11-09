@@ -3,7 +3,7 @@
 **Type:** Sample: an editorial standard and how it is enforced
 **When:** November 2026
 **Author:** Kathryn Collins
-**Prepared for:** [Technical Editor, Editorial Publishing, Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5443997008)
+**Prepared for:** Content management and technical writing roles
 
 ## What this shows
 

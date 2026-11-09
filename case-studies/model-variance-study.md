@@ -3,7 +3,7 @@
 **Type:** Evaluation design, editorial standards and AI-assisted content operations
 **When:** November 2026
 **Tools:** Claude Code (headless runs), Python, the house style scanner, a blind scoring page, Git
-**Prepared for:** [Technical Editor, Editorial Publishing, Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5443997008)
+**Prepared for:** Content management and technical writing roles
 
 ## What this shows
 

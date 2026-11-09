@@ -4,7 +4,7 @@
 **When:** September 2026
 **Author:** Kathryn Collins
 **Tools:** a git-based docs platform (evaluated), an internal wiki, a component content management system
-**Prepared for:** [Technical Editor, Editorial Publishing, Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5443997008)
+**Prepared for:** Content management and technical writing roles
 
 ## What this shows
 

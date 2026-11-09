@@ -16,6 +16,14 @@ Shows the same argument retold for executives, product and engineering leaders a
 Four one-page memos rewritten from real proposals and decision records: which capability to staff first, a stage-based readiness process, where a source of record lives, and a security gate.
 Each states the options, the reasoning and what happened after, or says the outcome is not yet known.
 
+#### [Internal knowledge base designed as a catalog, not a warehouse](projects/pandashare-knowledge-base/README.md)
+Information architecture where content stays at its source: a concept format, a source registry with reliability tiers and an audience label on every concept.
+Includes decision records, review guides for product and marketing reviewers, and a read-only internal site.
+
+#### [Release guides consolidation: a content migration with nothing deleted](projects/release-guides-consolidation/README.md)
+38 guides in seven product-area folders by October, with every merged source kept as a pointer and old links redirected.
+Shows structural checks, stage-based readiness checks and contradictions kept visible for their owners.
+
 #### [Feature name governance across docs, product and marketing](case-studies/feature-name-governance.md)
 Naming treated as disclosure: one owner per release stage, a record of every rename, and no automated step that can set the name customers see.
 Shows a naming process designed to stay consistent across teams.
@@ -28,19 +36,36 @@ Recommends keeping public and internal docs on separate platforms so nothing rea
 Applied safety for a deployed AI agent: its role is limited in its instructions and its writes are limited by access.
 Includes security review, decision records and fixes drawn from its own run logs.
 
-#### [Internal knowledge base designed as a catalog, not a warehouse](projects/pandashare-knowledge-base/README.md)
-Information architecture where content stays at its source: a concept format, a source registry with reliability tiers and an audience label on every concept.
-Includes decision records, review guides for product and marketing reviewers, and a read-only internal site.
+### Writing, editing and content management
 
-#### [Release guides consolidation: a content migration with nothing deleted](projects/release-guides-consolidation/README.md)
-38 guides in seven product-area folders by October, with every merged source kept as a pointer and old links redirected.
-Shows structural checks, stage-based readiness checks and contradictions kept visible for their owners.
+#### [Release documentation in a component CMS](projects/cms-release-docs/README.md)
+Release docs written while the release was moving, with an ambiguous support statement settled with the product owner on record.
+Nothing reached readers before it was checked.
+
+#### [API reference cleanup and docs-as-code pipeline](projects/api-docs-cleanup/README.md)
+Facts checked with engineering, public and internal content separated, and every change approved before it went live.
+
+#### [Editorial standards for AI-assisted documentation](samples/editorial-standards.md)
+The house standard every doc meets, whether a person or a model drafts it: severity tiers, before and after rewrites, and who checks what.
+Shows editing judgment written down so it holds across writers, scanners and models.
+
+#### [AI assistant skills for a technical documentation team](projects/tech-docs-skills/README.md)
+Editorial standards turned into rules a model applies, with drafting and evaluation on separate models and a person deciding every outcome.
+Shows Claude in editorial work with human review gates.
+
+#### [Analytics framework for a docs AI assistant](projects/ai-widget-analytics/README.md)
+States what its evidence can and cannot support, and sets disclosure and confidentiality controls for transcript data.
+Written for leadership and the docs team at once.
+
+#### [Self-regenerating docs pipeline: system design and prototype](projects/docs-pipeline-design/README.md)
+A technical system explained to decision-makers, with the prototype's limits stated next to its results.
+
+#### [Accessible brand UI kit and design review guide](projects/ui-kit/README.md)
+Standards with their reasons written down, and review of upcoming UI before it reaches engineering.
 
 #### [Guardrails for AI-assisted publishing](case-studies/ai-publishing-guardrails.md)
 Disclosure and confidentiality controls for a customer-facing log that AI drafts and people publish, with agent permissions enforced in instructions and by scoped access.
 Includes a postmortem of a silent failure and the limits kept manual on purpose.
-
-### Writing, editing and content management
 
 #### [One style standard, five AI models: a pre-registered test](case-studies/model-variance-study.md)
 Evaluation design and reporting: hypotheses fixed before any run, every result reported as logged, and the limits stated next to the claims.
@@ -50,34 +75,9 @@ Shows how models behave under a written standard, what automated checks miss, an
 Explains model behavior to technical writers who don't work with models, using only results from the logged test.
 Slides with speaker notes, an outline that cites the source of every number, and stated limits.
 
-#### [Editorial standards for AI-assisted documentation](samples/editorial-standards.md)
-The house standard every doc meets, whether a person or a model drafts it: severity tiers, before and after rewrites, and who checks what.
-Shows editing judgment written down so it holds across writers, scanners and models.
-
 #### [Model variance test kit](test-kit/model-variance-kit/)
 The pre-registrations, prompts, inputs, scorers, raw logs and results behind the case study and talk.
 Shows that every claim can be traced to a logged run.
-
-#### [AI assistant skills for a technical documentation team](projects/tech-docs-skills/README.md)
-Editorial standards turned into rules a model applies, with drafting and evaluation on separate models and a person deciding every outcome.
-Shows Claude in editorial work with human review gates.
-
-#### [Release documentation in a component CMS](projects/cms-release-docs/README.md)
-Release docs written while the release was moving, with an ambiguous support statement settled with the product owner on record.
-Nothing reached readers before it was checked.
-
-#### [Analytics framework for a docs AI assistant](projects/ai-widget-analytics/README.md)
-States what its evidence can and cannot support, and sets disclosure and confidentiality controls for transcript data.
-Written for leadership and the docs team at once.
-
-#### [API reference cleanup and docs-as-code pipeline](projects/api-docs-cleanup/README.md)
-Facts checked with engineering, public and internal content separated, and every change approved before it went live.
-
-#### [Self-regenerating docs pipeline: system design and prototype](projects/docs-pipeline-design/README.md)
-A technical system explained to decision-makers, with the prototype's limits stated next to its results.
-
-#### [Accessible brand UI kit and design review guide](projects/ui-kit/README.md)
-Standards with their reasons written down, and review of upcoming UI before it reaches engineering.
 
 Internal names, identifiers and figures are removed or generalized throughout; bracketed items are open questions or figures still to be confirmed.
 

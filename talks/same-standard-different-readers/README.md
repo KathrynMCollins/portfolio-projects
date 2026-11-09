@@ -2,7 +2,7 @@
 
 **Event:** Write the Docs
 **Status:** Planned. Slides and speaker notes drafted; not yet delivered.
-**Prepared for:** [Technical Editor, Editorial Publishing, Anthropic](https://job-boards.greenhouse.io/anthropic/jobs/5443997008)
+**Prepared for:** Content management and technical writing roles
 
 ## What this shows
 
