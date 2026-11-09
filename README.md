@@ -59,6 +59,14 @@ A technical system explained to decision-makers, with the prototype's limits sta
 ### [Accessible brand UI kit and design review guide](projects/ui-kit/README.md)
 Standards with their reasons written down, and review of upcoming UI before it reaches engineering.
 
+### [Internal knowledge base designed as a catalog, not a warehouse](projects/pandashare-knowledge-base/README.md)
+Information architecture where content stays at its source: a concept format, a source registry with reliability tiers and an audience label on every concept.
+Includes decision records, review guides for product and marketing reviewers, and a read-only internal site.
+
+### [Release guides consolidation: a content migration with nothing deleted](projects/release-guides-consolidation/README.md)
+77 guide pages in mid-September, 38 in seven product-area folders by October, with every merged source kept as a pointer and old links redirected.
+Shows structural checks, a stage-based readiness ladder and contradictions kept visible for their owners.
+
 Internal names, identifiers and figures are removed or generalized throughout; bracketed items are open questions or figures still to be confirmed.
 
 ## Structure
