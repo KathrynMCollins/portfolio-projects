@@ -16,6 +16,10 @@ Shows the same argument retold for executives, product and engineering leaders a
 Four one-page memos rewritten from real proposals and decision records: which capability to staff first, a stage-based readiness process, where a source of record lives, and a security gate.
 Each states the options, the reasoning and what happened after, or says the outcome is not yet known.
 
+#### [Measuring a documentation program: from monthly workbooks to page-type goals](case-studies/docs-program-measurement.md)
+Monthly analytics, an internal survey, release-level comparisons and goals set per page type, kept from 2021 and revised as the questions changed.
+Shows which changes the evidence supports, what is not recorded, and how the record later fed the AI assistant analytics framework.
+
 #### [Internal knowledge base designed as a catalog, not a warehouse](projects/pandashare-knowledge-base/README.md)
 Information architecture where content stays at its source: a concept format, a source registry with reliability tiers and an audience label on every concept.
 Includes decision records, review guides for product and marketing reviewers, and a read-only internal site.
