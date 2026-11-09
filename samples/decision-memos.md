@@ -8,7 +8,7 @@ These memos are rewritten from real records: an investment proposal I wrote for 
 
 ## 1. Which capability to staff first
 
-**Status:** proposed; approval not in the record
+**Status:** partly resolved
 **Kind of judgment:** organization and team
 
 **Context.** Documentation was learning about product changes after they shipped. Release coordination had no owner and was being absorbed by me, alongside the AI tooling work the team was measured on. Several major launches were due in the same window. The proposal asked for two new capabilities: product-area documentation with an engineering lean, and release readiness ownership covering release intake and a readiness checklist.
@@ -22,7 +22,7 @@ These memos are rewritten from real records: an investment proposal I wrote for 
 
 **Reasoning.** The bottleneck was warning, not writing. Writing capacity added today would do the same late work at higher volume; release readiness changes when the team finds out, and process is the one thing headcount cannot substitute for. Placement mattered as much as the capability: if it reported into documentation, its requests would read as "documentation wants something" and the gate would stay advisory. The proposal also said that a planned shift toward pipeline work depended on the product-area capability, so approving one without the other would quietly cancel the shift. Stating that up front made it a choice rather than a discovery.
 
-**What happened after.** Not yet known. The records I drew on do not show whether either was approved.
+**What happened after.** Added writing capacity was approved and is being onboarded, the option this memo argued was not enough on its own. Neither the release readiness nor the product-area capability has been decided in the records I drew on, so whether the warning problem gets solved is still open.
 
 ## 2. Ask for what a feature's stage owes, not for everything
 

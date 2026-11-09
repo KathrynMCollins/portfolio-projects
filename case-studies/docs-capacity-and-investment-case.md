@@ -12,7 +12,7 @@ Portfolio note: customer names, people, internal product and team names, tools a
 
 ## The problem
 
-Engineering at BigPanda was shipping faster than the documentation team could follow. The symptoms reached the team from every direction: features that went live before their docs, field engineers learning about changes from customers, and finished docs waiting weeks for someone in engineering to confirm them. Feedback gathered for the review asked less for more documentation than for advance notice of changes and for existing content to be easier to find.
+Engineering at BigPanda was shipping faster than the documentation team could follow. The symptoms reached the team from every direction: features that went live before their docs, field engineers learning about changes from customers, and finished docs waiting weeks for someone in engineering to confirm them. Feedback I gathered for the review asked less for more documentation than for advance notice of changes and for existing content to be easier to find.
 
 The team was small, and release coordination had no owner, so it was being absorbed by me alongside the team's tooling work.
 
@@ -20,7 +20,7 @@ The team was small, and release coordination had no owner, so it was being absor
 
 **First pass: planned work against capacity.** The September capacity review found that planned feature documentation ran at roughly twice the team's writing capacity. A separate quarter view showed the same shape: process fixes could recover only about a fifth of the quarter's shortfall at no added headcount, and the rest would slip into a following quarter that already carried its own load.
 
-**Second pass: what actually ships.** Planned work only counts what reaches a doc plan, so the analysis went to engineering's issue tracker: thousands of completed issues across the product teams, with scripted bulk closures removed. A stratified sample of a few hundred issues was hand-labeled by documentation need and scaled up by team, with the uncertainty shown as ranges.
+**Second pass: what actually ships.** Planned work only counts what reaches a doc plan, so the analysis went to engineering's issue tracker: thousands of completed issues across the product teams, with scripted bulk closures removed. I hand-labeled a stratified sample of a few hundred issues by documentation need and scaled it up by team, with the uncertainty shown as ranges.
 
 That produced three workloads, not one:
 
@@ -70,7 +70,7 @@ The investment proposal treated team design as part of the fix: one function wit
 
 ## What was decided
 
-The executive deck records the two automation projects as committed and blocked on dependencies outside the team. The records I drew on do not show a decision on Option A or B, on added capacity, or on the proposed team changes. That outcome is not known here.
+The executive deck records the two automation projects as committed and blocked on dependencies outside the team. Added writing capacity was approved, and onboarding is under way. That matches the first step of the team's recommendation, though no record names Option A or B as the chosen path. The records I drew on do not show a decision on the proposed team changes.
 
 ## Limitations
 
