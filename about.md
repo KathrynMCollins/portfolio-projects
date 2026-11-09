@@ -25,7 +25,9 @@ Kathryn Collins, M.A., Senior Manager of Content Operations at BigPanda. Fifteen
 
 ### BigPanda, 2021 to present
 
-Senior Manager of Content Operations
+- Senior Manager of Content Operations, August 2026 to present
+- Senior Manager of Product Documentation, 2021 to August 2026
+
 
 - Lead documentation and content operations for an AI-driven incident management platform. Manage writers while editing customer docs, release guides and release notes, fact-checked with product and engineering.
 - Built the documentation team and process from the ground up, measured by ticket deflection and feature adoption.
