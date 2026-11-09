@@ -77,4 +77,4 @@ These memos are rewritten from real records: an investment proposal I wrote for 
 
 **Reasoning.** A flag that produces a green run cannot show that a gate is unmet. With sources enabled and credentials absent, the job now fails loudly and names every unreachable source.
 
-**What happened after.** An early run damaged many files because I enabled the credentials before the fix had merged. I repaired it the next day. The record keeps that history and the lesson that came from it: land the code before the credentials. A later proposal, since implemented, took one pipeline off credentials entirely.
+**What happened after.** An early run damaged many files because I enabled the credentials before the fix had merged. It was repaired the next day. The record keeps that history and the lesson that came from it: land the code before the credentials. A later proposal, since implemented, took one pipeline off credentials entirely.
