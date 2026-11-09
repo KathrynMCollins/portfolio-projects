@@ -1,6 +1,7 @@
-title: "Kathryn Collins: portfolio"
-description: Technical editing and review systems for AI-assisted publishing
-theme: jekyll-theme-primer
+title: "Kathryn Collins"
+tagline: Technical editing and review systems for AI-assisted publishing
+description: Case studies, samples, a talk and a pre-registered test of five AI models against one style standard.
+repository_url: https://github.com/KathrynMCollins/portfolio-projects
 plugins:
   - jekyll-relative-links
   - jekyll-readme-index
@@ -15,3 +16,14 @@ readme_index:
 titles_from_headings:
   enabled: true
   strip_title: false
+kramdown:
+  auto_ids: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "README.md"
+    values:
+      layout: home
