@@ -1,6 +1,6 @@
 # Portfolio
 
-Kathryn Collins, Senior Manager of Content Operations at BigPanda. I am a technical editor who builds review systems for AI-assisted publishing: standards a model can apply, checks a person can trust, and clear statements of what each piece of work does not show.
+Kathryn Collins, Senior Manager of Content Operations at BigPanda. I lead documentation and knowledge programs: I size what a team can carry and make the case for what it needs, decide where content lives and who owns it, and build the review and publishing processes that keep docs accurate as products change. AI tools are part of that work, held to the same standards and human review as everything else.
 
 ## Pieces
 

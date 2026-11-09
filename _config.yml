@@ -1,6 +1,6 @@
 title: "Kathryn Collins"
-tagline: Technical editing and review systems for AI-assisted publishing
-description: Case studies, samples, a talk and a pre-registered test of five AI models against one style standard.
+tagline: Content operations, knowledge management and documentation leadership
+description: Case studies, decision memos and samples from running a documentation and knowledge program, covering capacity planning, information architecture, content migration, governance and review.
 repository_url: https://github.com/KathrynMCollins/portfolio-projects
 plugins:
   - jekyll-relative-links
