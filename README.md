@@ -13,7 +13,7 @@ Demand measured from engineering's own tracker, split into three workloads with 
 Shows the same argument retold for executives, product and engineering leaders and the field, with every figure labeled by confidence.
 
 #### [Decision memos](samples/decision-memos.md)
-Four one-page memos rewritten from real decisions: which role to ask for first, a stage-based readiness process, where a source of record lives, and a security gate.
+Four one-page memos rewritten from real proposals and decision records: which role to ask for first, a stage-based readiness process, where a source of record lives, and a security gate.
 Each states the options, the reasoning and what happened after, or says the outcome is not yet known.
 
 #### [Feature name governance across docs, product and marketing](case-studies/feature-name-governance.md)
@@ -43,7 +43,7 @@ Includes a postmortem of a silent failure and the limits kept manual on purpose.
 ### Writing, editing and content management
 
 #### [One style standard, five AI models: a pre-registered test](case-studies/model-variance-study.md)
-Evaluation design and honest reporting: hypotheses fixed before any run, every result reported as logged, and the limits stated next to the claims.
+Evaluation design and reporting: hypotheses fixed before any run, every result reported as logged, and the limits stated next to the claims.
 Shows how models behave under a written standard, what automated checks miss, and why blind human review still matters.
 
 #### [Talk: Same standard, different readers](talks/same-standard-different-readers/README.md)
