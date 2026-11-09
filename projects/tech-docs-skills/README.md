@@ -60,7 +60,7 @@ Built or shaped related skills that share the same rules:
 
 - The skills make drafts consistent and checkable; they do not replace a person's review, and every run hands decisions back to a person.
 - Separate evaluation depends on the environment offering a second model. When it does not, the run says so instead of grading its own draft.
-- [metrics] Time saved and adoption figures are not included.
+- Time saved and adoption figures are not included.
 
 ## What I'd highlight
 

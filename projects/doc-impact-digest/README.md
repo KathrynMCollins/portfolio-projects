@@ -50,7 +50,7 @@ Product changes reached the docs team too late, or not at all. Engineering work 
 ## Limitations
 
 - The digest flags work and opens tickets; a writer still decides what each change needs.
-- [metrics] Reductions in missed or late docs are not yet measured.
+- Reductions in missed or late docs are not yet measured.
 
 ## What I'd highlight
 
