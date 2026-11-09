@@ -40,7 +40,7 @@ The later analytics show the structural changes. In mid-2021 the API reference w
 
 To see whether release docs were read, I built a workbook of every page's monthly views across 2021 and 2022. When the enrichment documentation was replaced, the old page fell to roughly a fifth of its traffic within two months while the new page took it over.
 
-For the SCIM release I compared month-long windows around the announcement. From a small base of a few hundred views a month, views across the SCIM and role management pages rose roughly 70 percent afterward, monthly views roughly doubled over four months, and readers moved from the older beta user API pages to the new endpoints. Those ratios are approximate, and the change is not isolated from other causes. A 2023 workbook compared the SSO pages with their page-type baseline: one setup page held readers about 2.4 times as long as a typical instructions page, on a page with very low traffic. What followed from that is not recorded.
+For the SCIM release I compared month-long windows around the announcement. From a small base, views across the SCIM and role management pages rose roughly 70 percent afterward, monthly views roughly doubled over four months, and readers moved from the older beta user API pages to the new endpoints. Those ratios are approximate, and the change is not isolated from other causes. A 2023 workbook compared the SSO pages with their page-type baseline: one setup page held readers about 2.4 times as long as a typical instructions page, on a page with very low traffic. What followed from that is not recorded.
 
 ### 4. Annual comparisons and page-type goals (2023)
 
