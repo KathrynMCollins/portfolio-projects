@@ -1,11 +1,11 @@
 ---
 title: About
-description: Kathryn Collins, Senior Manager of Content Operations at BigPanda. Experience, selected programs, education and contact.
+description: Kathryn Collins, Senior Manager of Content Operations at BigPanda. Selected programs, experience, education and skills.
 ---
 
 # About
 
-Kathryn Collins, M.A., Senior Manager of Content Operations at BigPanda. Fifteen years of making complex technical systems clear to expert and general readers, the last several spent building and leading documentation and content operations.
+Kathryn Collins, M.A., Senior Manager of Content Operations at BigPanda. Fifteen years of making complex technical systems clear to expert and general readers, the last several spent building and leading documentation and content operations. I build the processes that keep documentation accurate as products change: where content lives, who reviews it, and how AI-assisted drafts reach readers only after a person checks them.
 
 [Connect on LinkedIn](https://www.linkedin.com/in/kathryn-collins-34237320b)
 
@@ -13,13 +13,14 @@ Kathryn Collins, M.A., Senior Manager of Content Operations at BigPanda. Fifteen
 
 | When | Program | Read more |
 | --- | --- | --- |
-| 2021 onward | Built the documentation team and process from the ground up, measured by ticket deflection and feature adoption | [Measuring a documentation program over several years](case-studies/docs-program-measurement.md) |
-| 2022 | Documentation training for product managers: writing stages first, then the product manager's part in release docs | [Measuring a documentation program over several years](case-studies/docs-program-measurement.md) |
-| 2026 | Sized the documentation capacity gap and made the investment case to leadership | [Capacity and investment case](case-studies/docs-capacity-and-investment-case.md) |
-| 2026 | Internal knowledge base designed as a catalog, with decision records for its design | [Knowledge base](projects/pandashare-knowledge-base/README.md), [Decision memos](samples/decision-memos.md) |
-| 2026 | Release guides consolidated into seven product-area folders, with nothing deleted | [Release guides consolidation](projects/release-guides-consolidation/README.md) |
-| 2026 | Feature name governance across docs, product and marketing | [Feature name governance](case-studies/feature-name-governance.md) |
-| 2026 | Review and publishing controls for AI-assisted content: AI drafts and triages, people verify and approve, and no automated step publishes | [Guardrails for AI-assisted publishing](case-studies/ai-publishing-guardrails.md), [Doc impact digest](projects/doc-impact-digest/README.md) |
+| 2021 to 2023 | Built a documentation measurement practice: monthly traffic workbooks, an internal reader survey, release-level comparisons and goals set per page type | [Measuring a documentation program over several years](case-studies/docs-program-measurement.md) |
+| 2022 | Trained product managers on documentation: writing stages first, then their part in release docs | [Product manager training](case-studies/docs-program-measurement.md#5-documentation-training-for-product-managers-2022) |
+| Aug to Oct 2026 | Sized the documentation capacity gap and made the investment case to leadership; added writing capacity was approved | [Capacity and investment case](case-studies/docs-capacity-and-investment-case.md) |
+| Jun to Nov 2026 | Designed an internal knowledge base as a catalog of where content lives, with 26 decision records for its design | [Knowledge base](projects/pandashare-knowledge-base/README.md), [Decision memos](samples/decision-memos.md) |
+| Sep to Oct 2026 | Consolidated the release guides into 38 guides in seven product-area folders, with nothing deleted and 40 redirects for old links | [Release guides consolidation](projects/release-guides-consolidation/README.md) |
+| Sep to Oct 2026 | Designed a documentation triage digest for engineering work; version 2 fixed four defects found in its own run logs | [Doc impact digest](projects/doc-impact-digest/README.md) |
+| Nov 2026 | Designed a feature name registry so docs, product and marketing share one record per feature | [Feature name governance](case-studies/feature-name-governance.md) |
+| Nov 2026 | Set review and publishing controls for AI-assisted content: AI drafts and triages, people verify and approve, and no automated step publishes | [Guardrails for AI-assisted publishing](case-studies/ai-publishing-guardrails.md) |
 
 ## Experience
 
@@ -30,7 +31,8 @@ Senior Manager of Product Documentation, 2021 to August 2026
 
 - Lead documentation and content operations for an AI-driven incident management platform. Manage writers while editing customer docs, release guides and release notes, fact-checked with product and engineering.
 - Built the documentation team and process from the ground up, measured by ticket deflection and feature adoption.
-- Built the Bug Fix Log pipeline: a customer-visibility test, a hold queue for uncertain items, internal identifiers stripped, and a human publishing step. It logged more than 250 entries in September and October 2026.
+- Built the Bug Fix Log pipeline: a customer-visibility test, a hold queue for uncertain items, internal identifiers stripped, and a human publishing step. The log had more than 250 entries for September and October 2026.
+- Designed the review controls for AI-assisted publishing: AI drafts and triages, people verify and approve, and no automated step publishes. Agent permissions are limited by scoped access.
 - Coordinate a cross-team suite of Claude skills with shared terminology, a feature name registry and review gates, with drafting and evaluation on separate models.
 
 ### NEOGOV, 2020 to 2021
