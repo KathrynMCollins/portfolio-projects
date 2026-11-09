@@ -3,6 +3,7 @@
 **Type:** Case study: capacity planning, an investment case to leadership and team design
 **When:** August to October 2026
 **Author:** Kathryn Collins
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -32,7 +33,7 @@ That produced three workloads, not one:
 
 Per-customer implementation configuration sat on engineering boards but belonged to the services team by charter, so it was shown only to say where it was filed and excluded from documentation demand.
 
-The analysis also showed why the team's own tooling could not fix lead time. Our daily digest (an automated report of tracker work that might need docs) flagged issues when they moved to "started", meaning work had begun. On the largest team about 60 percent of issues finished within a day of starting, about half across the whole stream, and on some teams a third to half never passed through "started" at all. Lead time had to come from projects and releases instead.
+The analysis also showed why the team's own tooling could not fix lead time. The daily pass of our doc impact digest (an automated report of tracker work that might need docs) flagged issues when they moved to "started", meaning work had begun. On the largest team about 60 percent of issues finished within a day of starting, about half across the whole stream, and on some teams a third to half never passed through "started" at all. Lead time had to come from projects and releases instead.
 
 **The trust problem.** Docs that reached the ready-for-validation gate, the step where engineering confirms a draft before it publishes, waited a median of several weeks, and half were still waiting. Separately, the team's own estimate was that about 1 in 3 documents published with no developer or product review, under a "better some than none" policy; that share reflects the policy rather than a measurement. I framed it as the bar any automation had to beat: the status quo was not "reviewed by humans."
 
@@ -64,9 +65,9 @@ The wider investment proposal had a full version and a plain-language version wi
 
 In the handoff I wrote for building the leadership slides, every claim was marked as coming from the capacity deck, verified against the knowledge base repository, or derived from a hand-authored dependency map; anything unmarked was framing, not evidence. Warnings traveled with the numbers: nobody should staff to the 5 to 7 times figure, the build horizon for Option B was the softest number, and customer quotes were to be pulled from the source rather than paraphrased. The investment proposal's instrumentation section said up front that none of its three headline numbers could yet be measured. Claude helped: the handoff was written so a Claude session could build the leadership slides, and the product leadership deck says it was made with one of the team's Claude skills.
 
-## The role proposal as part of the plan
+## Team design as part of the plan
 
-The investment proposal treated team design as part of the fix: one function with a writing-to-systems gradient, product-area ownership with an engineering lean, and a release readiness function placed above the documentation team, with a planned shift toward pipeline work depending on the product-area ownership. I also wrote a role definition for my own hybrid manager and builder position and a realistic week-in-the-life description of engineering-leaning documentation work. The reasoning behind which capability to staff first is in the [decision memos](../samples/decision-memos.md).
+The investment proposal treated team design as part of the fix: one function with a writing-to-systems gradient, product-area ownership with an engineering lean, and a release readiness function placed above the documentation team, with a planned shift toward pipeline work depending on the product-area ownership. I also defined how a hybrid manager and builder position and engineering-leaning documentation work fit the team. The reasoning behind which capability to staff first is in the [decision memos](../samples/decision-memos.md).
 
 ## What was decided
 

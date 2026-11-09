@@ -2,8 +2,9 @@
 
 **Type:** Content migration and content management, with structural quality checks
 **When:** September to October 2026
+**Author:** Kathryn Collins
 **Tools:** Confluence, Markdown, Python structural checker, a nightly sync to an internal site, redirect map, Linear, Claude Code (Claude Opus and Sonnet models)
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -42,9 +43,9 @@ Technical release guides are the internal pages that tell sales, support and ser
 - Every absorbing page passed the release guide checker's first 13 structural checks. They block retired section headings, a summary that repeats the excerpt, FAQ answers that restate the page, a date in the frontmatter (the metadata block at the top of the file) that disagrees with the identity table, program status values outside the agreed list, non-standard top-level headings and long dashes in prose. They also require frontmatter, a product area from a fixed list, an audience label, a slug pattern, a stage from nine labels and a sales status from five values.
 - Further checks cover the identity table's required rows, the title suffix, a generally available feature marked internal-only, a document owner named as the product lead and archive markers that disagree with the page title.
 
-### 6. Defined what each guide owes at each stage
+### 6. Defined a readiness ladder: what each guide owes at each stage
 
-- Each stage owes more sections than the one before, from a summary and a lead at proof of concept to customer docs and enablement material at general availability. The issue tracker decides the stage.
+- On the readiness ladder, each stage owes more sections than the one before, from a summary and a lead at proof of concept to customer docs and enablement material at general availability. The issue tracker decides the stage.
 - Asking only for what a stage owes cut the first sweep to 60 asks across 25 in-development features, against 524 if every row were asked of every feature.
 
 ### 7. Kept contradictions visible
@@ -54,7 +55,7 @@ Technical release guides are the internal pages that tell sales, support and ser
 
 ## Results
 
-- **38 guides in 7 product-area folders** after the October consolidation, with each merged source kept as a pointer.
+- **38 guides in 7 product-area folders** after the October consolidation, with each merged source kept as a pointer. The counts were taken at different points: 77 guide pages in a mid-September live read, and 38 guides after the October restructure and follow-up archiving. The sources do not record a count on the day the restructure started, so the figures do not subtract directly.
 - **40 redirects** plus a link sweep, so old tile links and bookmarks keep working.
 - **Every absorbing page passed the structural checks**, and the nightly sync ran green with the merged guides on the site in the right product area.
 - Open action items were listed in a run report with owners. They include three pages still to archive by hand (agent permissions blocked them), page comments no longer attached to text because their page became a pointer, statuses to confirm with product managers, docs tickets to file and page labels still to apply.
@@ -62,7 +63,7 @@ Technical release guides are the internal pages that tell sales, support and ser
 ## Limitations
 
 - The structural checks confirm shape, not truth. The `[VERIFY]` items wait on their owners.
-- The keep-or-archive decision on the pointer pages is still open. A later staleness audit stopped spending effort on them by skipping the archive folders.
+- The keep-or-archive decision on the pointer pages is still open. A later staleness audit of the internal release guides, which looks for pages that are no longer true, stopped spending effort on them by skipping the archive folders.
 - Reader time to find the right guide is not measured.
 
 ## What I'd highlight

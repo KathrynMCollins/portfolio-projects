@@ -2,8 +2,9 @@
 
 **Type:** Documentation management, with process design and automation
 **When:** September to October 2026
+**Author:** Kathryn Collins
 **Tools:** Linear, Confluence, Slack, Python, TypeScript, a serverless host, GitHub Actions, Claude (AI audit step), Architecture Decision Records
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -19,12 +20,12 @@ Product changes reached the docs team too late, or not at all. Engineering work 
 
 - Defined two recurring passes: a **daily "started" pass** that flags work as it enters progress, so writers get lead time, and a **weekly "completed" pass** that catches anything that shipped without docs review.
 - Planned project-first: tickets inside an unreleased project roll into that project's doc plan instead of being reviewed one by one, so the noise drops sharply.
-- Defined a **stage ladder** for each project, from early prototype through beta to general availability. Each docs stage (Watch, Planned, Drafting, Review, Published) triggers a specific action: a ticket in the docs queue, a draft starter, or a Slack notice when a project becomes release-ready.
-- Added a **monthly bug fix log**, so customer-visible fixes are recorded in one place.
+- Defined a **stage model** for each project. As a project moves from early prototype through beta to general availability, it passes through docs stages (Watch, Planned, Drafting, Review, Published), and each stage triggers a specific action: a ticket in the docs queue, a draft starter, or a Slack notice when a project becomes release-ready.
+- Made the digest feed the customer-facing **Bug Fix Log**: it appends customer-visible fixes for the month, and people review and publish them. The controls on that log are in [Guardrails for AI-assisted publishing](../../case-studies/ai-publishing-guardrails.md).
 
 ### 2. Solved the naming problem
 
-- Created a **feature name registry**: people own the published name, each feature has a fixed ID, and older names are kept as aliases.
+- Created the **Feature Name Registry**, which the digest reads for every feature name: people own the published name, each feature has a fixed ID, and former names are kept and never deleted. The registry's design is in [feature name governance](../../case-studies/feature-name-governance.md).
 - A rename is treated as an event: the digest flags every place the old name still appears and opens a "name drift" ticket, so nothing is silently retitled.
 
 ### 3. Made it safe and testable
@@ -37,7 +38,7 @@ Product changes reached the docs team too late, or not at all. Engineering work 
 
 ### 4. Improved it from its own run logs
 
-- Version 2 fixed four defects found in the digest's own logs: orphaned names after renames, dated milestones that were invisible inside larger projects, a release-ready gate that never fired, and inconsistent ticket naming. It also included a one-time backfill that gave every tracked project a docs ticket without creating duplicates.
+- Version 2 fixed four defects found in the digest's own logs: orphaned names after renames, dated milestones that were invisible inside larger projects, a release-ready gate that never fired, and inconsistent ticket naming. For the gate, version 2 added a fallback that flags likely drafting candidates without creating anything. About a week later the root cause was traced: the release-ready label existed only as an issue label on one team, not as the project label the digest read. A workspace-level issue label replaced it, and the postmortem is in [Guardrails for AI-assisted publishing](../../case-studies/ai-publishing-guardrails.md#failure-and-fix). It also included a one-time backfill that gave every tracked project a docs ticket without creating duplicates.
 - Version 3 replaced long ticket bodies with links to one stored overview per project, so tickets stay short and the reasoning stays in one place.
 
 ## Results
@@ -55,7 +56,7 @@ Product changes reached the docs team too late, or not at all. Engineering work 
 ## What I'd highlight
 
 - **Docs as part of the release process:** a daily and a weekly pass, planned project-first, so writers hear about work when it starts, not after it ships.
-- **Governance with clear ownership:** a stage ladder that ties each docs stage to an action, people-owned feature names, decision records and security review, with AI kept to three judgement calls.
+- **Governance with clear ownership:** a stage model that ties each docs stage to an action, people-owned feature names, decision records and security review, with AI kept to three judgement calls.
 - **Treated as a product:** version 2 fixed four defects found in its own run logs, and every rule is covered by tests.
 
 Details are generalized and identifiers removed. No internal tickets, project names, people or customer information are included.

@@ -3,7 +3,7 @@
 **Type:** Case study: disclosure and confidentiality controls, human-in-the-loop design, publishing controls for AI-drafted content
 **When:** November 2026
 **Author:** Kathryn Collins
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -63,21 +63,21 @@ Each control answers one question: what stops sensitive content from reaching th
 | Human import into the docs CMS | Any automated write to the public site | Publishing |
 | Per-surface allow-list for agents | Agents writing outside their lane | All agents |
 
-The last row is where I contribute directly to the publishing controls for our AI workers. The digest agent (the agent that triages engineering work for documentation impact) works from an allow-list for each surface it touches:
+The last row is where I contribute directly to the publishing controls for our AI workers. The [doc impact digest](../projects/doc-impact-digest/README.md) (the agent that triages engineering work for documentation impact) works from an allow-list for each surface it touches:
 
 - Each system the agent touches has its own short list of permitted actions, limited to what its job needs. For example, in the issue tracker it can create tickets only for the docs team.
 - It has no access at all to the public docs CMS.
 
 Actions that change ownership or publish are reserved for people. If the tracker is unreachable, the run stops instead of reporting an empty week. The rules are written into the agent's instructions and enforced by scoped tokens and access, so an agent cannot write outside its lane even if it misreads its instructions.
 
-The same rules are enforced across a suite of Claude skills owned by different workflows (style, release guides, change-impact audit, in-app validation), using shared terminology and a shared Feature Name Registry, so a feature is named the same way in every public surface. Customer names, which internal tickets use freely, are stripped from every public entry.
+The same rules are enforced across a suite of Claude skills owned by different workflows (style, release guides, doc impact audit and digest, in-app validation), using shared terminology and a shared Feature Name Registry, so a feature is named the same way in every public surface. Customer names, which internal tickets use freely, are stripped from every public entry.
 
 ## Failure and fix
 
-For several weeks, the drafting gate in our change-impact pipeline fired on zero projects, and nothing reported an error. The gate waited for a release-readiness label before drafting customer content. The configuration assumed a workspace-wide project label; in reality the label existed only as an issue label on one team. Every run found nothing to draft and reported, accurately, that there was nothing to draft.
+For several weeks, the drafting gate in the doc impact digest fired on zero projects, and nothing reported an error. The gate waited for a release-ready label before drafting customer content. The configuration assumed a workspace-wide project label; in reality the label existed only as an issue label on one team. Every run found nothing to draft and reported, accurately, that there was nothing to draft.
 
-- **Detection.** Our scheduled weekly review of new automations compares what each one actually did on real data with how it behaved in testing. That review showed no project had reached drafting since the redesign, which was implausible given what had shipped. Tracing the signal back to its source showed the label had never existed at the scope the config expected.
-- **Fix.** We created a workspace-level label under the release-stage group, kept the old team label as an alias, and changed the gate to read the signal from each issue in a project rather than from the project itself.
+- **Detection.** The digest's own run logs showed that no project had reached drafting, run after run, which was implausible given what had shipped. Version 2 of the digest listed the gate as a defect and added a fallback that flags likely drafting candidates. The first explanation, that product managers were not applying the label, was wrong: about a week later, tracing the signal back to its source showed the label had never existed at the scope the config expected.
+- **Fix.** We created a workspace-level label under the release-stage group, kept the old team label working as a legacy name, and changed the gate to read the signal from each issue in a project rather than from the project itself.
 - **Prevention.** Run reports now include a one-line heartbeat with counts, so a run that finds nothing is visible as a number rather than as silence.
 
 The lesson carried into the rest of the system: a safeguard that fails closed can look exactly like a quiet week. I now design gates to report a count, not only a result.

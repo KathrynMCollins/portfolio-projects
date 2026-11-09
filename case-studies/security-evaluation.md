@@ -4,7 +4,7 @@
 **When:** September 2026
 **Author:** Kathryn Collins
 **Tools:** a git-based docs platform (evaluated), an internal wiki, a component content management system
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

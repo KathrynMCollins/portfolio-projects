@@ -2,8 +2,9 @@
 
 **Type:** Documentation management, with technical writing and editing
 **When:** October to November 2026
+**Author:** Kathryn Collins
 **Tools:** Apidog, OpenAPI, GitHub Actions, Python, Paligo, Vale, Claude Code
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

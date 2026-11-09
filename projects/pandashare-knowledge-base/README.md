@@ -2,8 +2,9 @@
 
 **Type:** Content management and information architecture, with governance and an internal site
 **When:** June to November 2026
+**Author:** Kathryn Collins
 **Tools:** Markdown with YAML frontmatter (Open Knowledge Format), Git and GitHub, Confluence, Python and Node validators, a static site, Claude Code, Architecture Decision Records
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -61,8 +62,8 @@ BigPanda knowledge was spread across documentation, Confluence, shared drives, S
 ## Results
 
 - One registry answers source, tier, access and audience questions for people and agents.
-- A catalog audit found that the site mirrored Confluence exactly and the errors were in the source guides: 21 of 59 guides marked a feature generally available and internal-only at once. The owner decision that generally available means sellable turned that into a specific correction list.
-- A generated review list tracks 609 open content items across 77 features, grouped by how incomplete each feature is and by gap type.
+- A catalog audit in mid-September 2026 found that the site mirrored Confluence exactly and the errors were in the source guides: 21 of the 59 guides it audited marked a feature generally available and internal-only at once. The owner decision that generally available means sellable turned that into a specific correction list.
+- A generated review list (early November 2026) tracks 609 open content items across the 77 features the site tracks, grouped by how incomplete each feature is and by gap type. Features tracked and guides audited are different measures, so the 77 and the 59 do not compare directly.
 
 ## Limitations
 
@@ -76,6 +77,6 @@ BigPanda knowledge was spread across documentation, Confluence, shared drives, S
 - **Audience as a field:** classification is enforced in frontmatter and in CI, not by convention.
 - **Decisions written down:** the reasons behind the structure survive staff changes and can be challenged in review.
 
-Related: [Doc impact digest](../doc-impact-digest/README.md) runs on this repository, and [feature name governance](../../case-studies/feature-name-governance.md) covers the naming registry the readiness check reads.
+Related: [Doc impact digest](../doc-impact-digest/README.md) runs on this repository, and [feature name governance](../../case-studies/feature-name-governance.md) covers the Feature Name Registry the readiness ladder reads.
 
 Details are generalized and identifiers removed. No internal page IDs, tickets, channels, people other than the author, customer information or unreleased feature details are included.

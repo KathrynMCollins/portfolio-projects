@@ -13,7 +13,7 @@ Demand measured from engineering's own tracker, split into three workloads with 
 Shows the same argument retold for executives, product and engineering leaders and the field, with every figure labeled by confidence.
 
 #### [Decision memos](samples/decision-memos.md)
-Four one-page memos rewritten from real proposals and decision records: which capability to staff first, a stage-based readiness process, where a source of record lives, and a security gate.
+Four one-page memos rewritten from real proposals and decision records: which capability to staff first, a readiness ladder for release guides, where a source of record lives, and a security gate.
 Each states the options, the reasoning and what happened after, or says the outcome is not yet known.
 
 #### [Measuring a documentation program: from monthly workbooks to page-type goals](case-studies/docs-program-measurement.md)
@@ -26,7 +26,7 @@ Includes decision records, review guides for product and marketing reviewers, an
 
 #### [Release guides consolidation: a content migration with nothing deleted](projects/release-guides-consolidation/README.md)
 38 guides in seven product-area folders by October, with every merged source kept as a pointer and old links redirected.
-Shows structural checks, stage-based readiness checks and contradictions kept visible for their owners.
+Shows structural checks, a readiness ladder for what each guide owes at each stage, and contradictions kept visible for their owners.
 
 #### [Feature name governance across docs, product and marketing](case-studies/feature-name-governance.md)
 Naming treated as disclosure: one owner per release stage, a record of every rename, and no automated step that can set the name customers see.
@@ -38,7 +38,7 @@ Recommends keeping public and internal docs on separate platforms so nothing rea
 
 #### [Doc impact digest: automated documentation triage from engineering work](projects/doc-impact-digest/README.md)
 Engineering work is triaged for docs impact when it starts and after it ships, and each docs stage produces a ticket, a draft or a notice.
-Includes a feature name registry, decision records, security review, and fixes drawn from its own run logs.
+Includes the Feature Name Registry, decision records, security review, and fixes drawn from its own run logs.
 
 ### Writing, editing and content management
 
@@ -100,6 +100,6 @@ Internal names, identifiers and figures are removed or generalized throughout; b
 
 <!-- Entry template (under a ### reading-path heading):
 #### [Project title](path/to/page.md)
-What it shows for the role, in one line.
+What it shows, in one line.
 One more line on the evidence.
 -->

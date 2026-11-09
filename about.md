@@ -18,8 +18,8 @@ Kathryn Collins, M.A., Senior Manager of Content Operations at BigPanda. Fifteen
 | Aug to Oct 2026 | Sized the documentation capacity gap and made the investment case to leadership; added writing capacity was approved | [Capacity and investment case](case-studies/docs-capacity-and-investment-case.md) |
 | Jun to Nov 2026 | Designed an internal knowledge base as a catalog of where content lives, with 26 decision records for its design | [Knowledge base](projects/pandashare-knowledge-base/README.md), [Decision memos](samples/decision-memos.md) |
 | Sep to Oct 2026 | Consolidated the release guides into 38 guides in seven product-area folders, with nothing deleted and 40 redirects for old links | [Release guides consolidation](projects/release-guides-consolidation/README.md) |
-| Sep to Oct 2026 | Designed a documentation triage digest for engineering work; version 2 fixed four defects found in its own run logs | [Doc impact digest](projects/doc-impact-digest/README.md) |
-| Nov 2026 | Designed a feature name registry so docs, product and marketing share one record per feature | [Feature name governance](case-studies/feature-name-governance.md) |
+| Sep to Oct 2026 | Designed the doc impact digest, which triages engineering work for documentation impact; version 2 fixed four defects found in its own run logs | [Doc impact digest](projects/doc-impact-digest/README.md) |
+| Sep to Nov 2026 | Designed and governed the Feature Name Registry so docs, product and marketing share one record per feature | [Feature name governance](case-studies/feature-name-governance.md) |
 | Nov 2026 | Set review and publishing controls for AI-assisted content: AI drafts and triages, people verify and approve, and no automated step publishes | [Guardrails for AI-assisted publishing](case-studies/ai-publishing-guardrails.md) |
 
 ## Experience
@@ -33,7 +33,7 @@ Senior Manager of Product Documentation, 2021 to August 2026
 - Built the documentation team and process from the ground up, measured by ticket deflection and feature adoption.
 - Built the Bug Fix Log pipeline: a customer-visibility test, a hold queue for uncertain items, internal identifiers stripped, and a human publishing step. The log had more than 250 entries for September and October 2026.
 - Designed the review controls for AI-assisted publishing: AI drafts and triages, people verify and approve, and no automated step publishes. Agent permissions are limited by scoped access.
-- Coordinate a cross-team suite of Claude skills with shared terminology, a feature name registry and review gates, with drafting and evaluation on separate models.
+- Coordinate a cross-team suite of Claude skills with shared terminology, the Feature Name Registry and review gates, with drafting and evaluation on separate models.
 
 ### NEOGOV, 2020 to 2021
 

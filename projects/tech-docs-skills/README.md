@@ -2,8 +2,9 @@
 
 **Type:** Documentation management, with style governance and AI-assisted content operations
 **When:** September to November 2026
+**Author:** Kathryn Collins
 **Tools:** Claude skills (Markdown instructions and reference files), Python, Vale, Git, Linear, Confluence, Paligo, Claude Code
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -37,8 +38,8 @@ Built or shaped related skills that share the same rules:
 
 - **Checking docs against the live app,** verifying UI labels and steps against what actually shipped.
 - **Feature release guides** in a fixed template, including drafts from transcripts, tickets or notes.
-- **Doc impact audits** of channels, tickets, commits and releases, finding changes that make docs out of date, with a recurring digest that flags work as it starts and catches what shipped without docs review.
-- **A knowledge-base staleness audit** that sorts pages by risk and files tickets for the ones that are out of date.
+- **Doc impact audits** of channels, tickets, commits and releases, finding changes that make docs out of date, with the doc impact digest, a recurring digest that flags work as it starts and catches what shipped without docs review.
+- **A staleness audit** of the internal release guides for pages that are no longer true. It sorts pages by risk and files tickets for the ones that are out of date.
 - **Live editing in the structured CMS**, with copies, reuse checks and verification.
 - **Brand-aligned visuals and course content,** including a UI kit, diagrams, infographics and training course storyboards.
 

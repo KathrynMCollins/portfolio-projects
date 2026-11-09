@@ -3,6 +3,7 @@
 **Type:** Sample: four one-page decision memos
 **When:** September to October 2026
 **Author:** Kathryn Collins
+**Prepared for:** Content management and documentation leadership roles
 
 These memos are rewritten from real records: an investment proposal I wrote for leadership and three architecture decision records where I was the decider for an internal knowledge base. They are generalized for a public portfolio, with people, customers, internal names and identifiers removed. Each one shows a different kind of judgment: team structure, process, platform and risk. Options are reconstructed from each record's context where the record does not list them. Where the outcome is not in the record, the memo says so.
 
@@ -34,11 +35,11 @@ These memos are rewritten from real records: an investment proposal I wrote for 
 **Options considered.**
 - A flat checklist on every guide. Simple, but it asks a prototype's product manager for FAQs and enablement material the feature will not need this year.
 - Leave it to writers to chase each gap by hand.
-- A ladder: a fixed, cumulative set of sections owed at each release stage, with the stage read from the issue tracker.
+- A readiness ladder: a fixed, cumulative set of sections owed at each release stage, with the stage read from the issue tracker.
 
-**Decision.** The ladder. The tracker is authoritative for the stage; where tracker and guide disagree, reconciling them is the first ask and the tool changes neither side. Asks appear on each product manager's existing release check page: no new page, spreadsheet or channel.
+**Decision.** The readiness ladder. The tracker is authoritative for the stage; where tracker and guide disagree, reconciling them is the first ask and the tool changes neither side. Asks appear on each product manager's existing release check page: no new page, spreadsheet or channel.
 
-**Reasoning.** An ask lands when it fits the work in front of someone. Keeping the ladder in one table, checked against the code, means moving a row between stages is a documentation change, not a code change.
+**Reasoning.** An ask lands when it fits the work in front of someone. Keeping the readiness ladder in one table, checked against the code, means moving a row between stages is a documentation change, not a code change.
 
 **What happened after.** The record was accepted. Its first sweep made about one in nine of the asks a flat checklist would have made. At the time it was written, the tracker read had not yet run, and the page said so instead of hiding it. Later results are not in the record.
 

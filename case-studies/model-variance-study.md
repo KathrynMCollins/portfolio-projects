@@ -2,8 +2,9 @@
 
 **Type:** Evaluation design, editorial standards and AI-assisted content operations
 **When:** November 2026
+**Author:** Kathryn Collins
 **Tools:** Claude Code (headless runs), Python, the house style scanner, a blind scoring page, Git
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -30,7 +31,7 @@ Our documentation team gives AI models a written house style standard as part of
 
 ## What came back
 
-**With the standard, the models agreed more than I predicted.** In the main and added-models runs, every model produced rewrites with no scanner blockers and no lost facts, and found all 12 planted problems without flagging correct text. The replication had two exceptions, described below. All four of my original hypotheses (H1 to H4), which predicted differences, came out false. One rule did not hold for any model: the standard says "just" is often legitimate, yet the meaningful "just" in one passage was removed in 38 of 40 guided runs (and in all 25 baseline runs).
+**With the standard, the models agreed more than I predicted.** In the main and added-models runs, every model produced rewrites with no scanner blockers and no lost facts, and found all 12 planted problems without flagging correct text. The replication had two exceptions, both from the same model: in the rewrite task, two runs on the procedure passage lost its facts (described below), and in the review task, one run found 11 of the 12 planted problems. All four of my original hypotheses (H1 to H4), which predicted differences, came out false. One rule did not hold for any model: the standard says "just" is often legitimate, yet the meaningful "just" in one passage was removed in 38 of 40 guided runs (and in all 25 baseline runs).
 
 **Without the standard, the scanner still found nothing.** The baseline rewrites also had zero blockers. The scanner could not show what the standard was doing.
 

@@ -2,8 +2,9 @@
 
 **Type:** Documentation management, with design systems and accessibility
 **When:** October to November 2026
+**Author:** Kathryn Collins
 **Tools:** HTML, CSS custom properties (design tokens), vanilla JavaScript, axe-core, Playwright, Python, Claude Code
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -49,7 +50,7 @@ Docs pages, internal tools, prototypes and one-off web pages were each styled by
 
 ## Limitations
 
-- Automated tests catch only part of WCAG 2.2. [Confirm whether manual testing with assistive technology was done.]
+- Automated tests catch only part of WCAG 2.2. Manual testing with assistive technology is not recorded.
 - Adoption so far is one internal admin console.
 
 ## What I'd highlight

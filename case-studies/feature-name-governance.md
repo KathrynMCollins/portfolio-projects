@@ -1,9 +1,9 @@
 # Feature name governance across docs, product and marketing
 
 **Type:** Case study: naming decisions, disclosure and cross-team ownership
-**When:** November 2026
+**When:** September to November 2026
 **Author:** Kathryn Collins
-**Prepared for:** Content management and technical writing roles
+**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
@@ -51,8 +51,8 @@ The registry is kept apart from the automation's own records on purpose. The aut
 The registry is read by every tool that names a feature, so a name decision is made once and followed everywhere.
 
 - **Ticket and digest titles** use the registry's slug and published name, so a rename does not create a duplicate ticket.
-- **The staleness audit**, a scheduled check that flags wiki pages likely to be out of date, treats "renamed after this page was last edited" as its strongest signal that a page is out of date, because the title or text almost certainly carries the old name.
-- **The release-readiness check**, which tells product managers what a release still owes before launch, joins each feature's roadmap entry to its tracker project through the registry. It reads the registry and never edits it; renames belong to the automation that detects them.
+- **The staleness audit**, a scheduled audit of the internal release guides for pages that are no longer true, treats "renamed after this page was last edited" as its strongest signal that a page is out of date, because the title or text almost certainly carries the old name.
+- **The readiness ladder**, which tells product managers what a release guide still owes at each stage before launch, joins each feature's roadmap entry to its tracker project through the registry. It reads the registry and never edits it; renames belong to the automation that detects them.
 
 ## Trade-offs and limits
 
