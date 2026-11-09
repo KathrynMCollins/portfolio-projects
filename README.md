@@ -64,8 +64,8 @@ Information architecture where content stays at its source: a concept format, a 
 Includes decision records, review guides for product and marketing reviewers, and a read-only internal site.
 
 ### [Release guides consolidation: a content migration with nothing deleted](projects/release-guides-consolidation/README.md)
-77 guide pages in mid-September, 38 in seven product-area folders by October, with every merged source kept as a pointer and old links redirected.
-Shows structural checks, a stage-based readiness ladder and contradictions kept visible for their owners.
+38 guides in seven product-area folders by October, with every merged source kept as a pointer and old links redirected.
+Shows structural checks, stage-based readiness checks and contradictions kept visible for their owners.
 
 Internal names, identifiers and figures are removed or generalized throughout; bracketed items are open questions or figures still to be confirmed.
 
