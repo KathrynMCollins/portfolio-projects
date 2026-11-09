@@ -45,11 +45,11 @@ The decision deck went to the R&D leader with a shared foundation and two option
 | | Option A: redistribute authoring | Option B: content engineering pipeline |
 | --- | --- | --- |
 | What changes | Engineering and product write first drafts; writers review, validate and author narrative, procedures and overhauls | Content compiled from code and schemas; evals (automated checks that score generated content) and procedure tests run in CI replace editorial review |
-| Load | The remaining gap was about one writer | Most item volume becomes review or automation |
-| Staffing shape | The current team plus one | A small group of content engineers (people who build and run the pipeline rather than write pages), after a multi-quarter build |
+| Load | A modest staffing gap remained | Most item volume becomes review or automation |
+| Staffing shape | The current team with a small addition | A dedicated pipeline function of content engineers (people who build and run the pipeline rather than write pages), after a multi-quarter build |
 | Risk | Lower; the long tail is only partly covered | Higher; narrative, overhauls and trust depend on eval quality |
 
-A and B were not exclusive: A is where B starts. The deck also carried the team's recommendation: close the gap now with one writer and Option A's levers, prove the testing layer, and only then decide on B, because weak evals would make B a downgrade. For immediate relief I set out two staffing routes, an internal move and an external hire, with the trade-off of each.
+A and B were not exclusive: A is where B starts. The deck also carried the team's recommendation: close the gap now with Option A's levers and modest added capacity, prove the testing layer, and only then decide on B, because weak evals would make B a downgrade. For immediate relief I set out staffing routes with the trade-off of each.
 
 ## Retelling it for each audience
 
@@ -66,11 +66,11 @@ In the handoff I wrote for building the leadership slides, every claim was marke
 
 ## The role proposal as part of the plan
 
-The investment proposal treated team design as part of the fix: one function with a writing-to-systems gradient, a documentation engineer owning a product area, and a release readiness program role placed above the documentation team, with an existing senior role's shift toward pipeline work depending on the new documentation engineer. I also wrote a role definition for my own hybrid manager and builder position and a realistic week-in-the-life description of the documentation engineer role. The reasoning behind which role to ask for first is in the [decision memos](../samples/decision-memos.md).
+The investment proposal treated team design as part of the fix: one function with a writing-to-systems gradient, product-area ownership with an engineering lean, and a release readiness function placed above the documentation team, with a planned shift toward pipeline work depending on the product-area ownership. I also wrote a role definition for my own hybrid manager and builder position and a realistic week-in-the-life description of engineering-leaning documentation work. The reasoning behind which capability to staff first is in the [decision memos](../samples/decision-memos.md).
 
 ## What was decided
 
-The executive deck records the two automation projects as committed and blocked on dependencies outside the team. The records I drew on do not show a decision on Option A or B, on the additional writer, or on the proposed roles. That outcome is not known here.
+The executive deck records the two automation projects as committed and blocked on dependencies outside the team. The records I drew on do not show a decision on Option A or B, on added capacity, or on the proposed team changes. That outcome is not known here.
 
 ## Limitations
 

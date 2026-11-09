@@ -13,7 +13,7 @@ Demand measured from engineering's own tracker, split into three workloads with 
 Shows the same argument retold for executives, product and engineering leaders and the field, with every figure labeled by confidence.
 
 #### [Decision memos](samples/decision-memos.md)
-Four one-page memos rewritten from real proposals and decision records: which role to ask for first, a stage-based readiness process, where a source of record lives, and a security gate.
+Four one-page memos rewritten from real proposals and decision records: which capability to staff first, a stage-based readiness process, where a source of record lives, and a security gate.
 Each states the options, the reasoning and what happened after, or says the outcome is not yet known.
 
 #### [Feature name governance across docs, product and marketing](case-studies/feature-name-governance.md)

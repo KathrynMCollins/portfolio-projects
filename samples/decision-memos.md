@@ -6,23 +6,23 @@
 
 These memos are rewritten from real records: an investment proposal I wrote for leadership and three architecture decision records where I was the decider for an internal knowledge base. They are generalized for a public portfolio, with people, customers, internal names and identifiers removed. Each one shows a different kind of judgment: team structure, process, platform and risk. Options are reconstructed from each record's context where the record does not list them. Where the outcome is not in the record, the memo says so.
 
-## 1. Which role to ask for first
+## 1. Which capability to staff first
 
 **Status:** proposed; approval not in the record
 **Kind of judgment:** organization and team
 
-**Context.** Documentation was learning about product changes after they shipped. Release coordination had no owner and was being absorbed by me, alongside the AI tooling work the team was measured on. Several major launches were due in the same window. The proposal asked for two new roles: a documentation engineer to own a product area, and a release readiness program role to own release intake and a readiness checklist.
+**Context.** Documentation was learning about product changes after they shipped. Release coordination had no owner and was being absorbed by me, alongside the AI tooling work the team was measured on. Several major launches were due in the same window. The proposal asked for two new capabilities: product-area documentation with an engineering lean, and release readiness ownership covering release intake and a readiness checklist.
 
 **Options considered.**
-- Ask for another writer only. More capacity for the same reactive catch-up work.
-- Ask for both roles, as a package.
+- Ask for more writing capacity only. More capacity for the same reactive catch-up work.
+- Ask for both capabilities, as a package.
 - Ask for both, and state in advance which to take if only one is approved.
 
-**Decision.** Ask for both, and say plainly: if only one is approved, take the release readiness role. Place it above the documentation team, not inside it.
+**Decision.** Ask for both, and say plainly: if only one is approved, take release readiness. Place it above the documentation team, not inside it.
 
-**Reasoning.** The bottleneck was warning, not writing. A writer added today would do the same late work at higher volume; the readiness role changes when the team finds out, and process is the one thing headcount cannot substitute for. Placement mattered as much as the role: if it reported into documentation, its requests would read as "documentation wants something" and the gate would stay advisory. The proposal also said that an existing senior role's shift toward pipeline work depended on the documentation engineer, so approving one without the other would quietly cancel the shift. Stating that up front made it a choice rather than a discovery.
+**Reasoning.** The bottleneck was warning, not writing. Writing capacity added today would do the same late work at higher volume; release readiness changes when the team finds out, and process is the one thing headcount cannot substitute for. Placement mattered as much as the capability: if it reported into documentation, its requests would read as "documentation wants something" and the gate would stay advisory. The proposal also said that a planned shift toward pipeline work depended on the product-area capability, so approving one without the other would quietly cancel the shift. Stating that up front made it a choice rather than a discovery.
 
-**What happened after.** Not yet known. The records I drew on do not show whether either role was approved.
+**What happened after.** Not yet known. The records I drew on do not show whether either was approved.
 
 ## 2. Ask for what a feature's stage owes, not for everything
 
