@@ -68,7 +68,7 @@ BigPanda knowledge was spread across documentation, Confluence, shared drives, S
 
 - Several decision records, including the security review gate for real-data connectors, are still proposed rather than accepted.
 - The category taxonomy is a working draft and its slugs may change.
-- [metrics] Time saved for readers and reduced search effort are not measured.
+- Time saved for readers and reduced search effort are not measured.
 
 ## What I'd highlight
 

@@ -63,7 +63,7 @@ Technical release guides are the internal pages that tell sales, support and ser
 
 - The structural checks confirm shape, not truth. The `[VERIFY]` items wait on their owners.
 - The keep-or-archive decision on the pointer pages is still open. A later staleness audit stopped spending effort on them by skipping the archive folders.
-- [metrics] Reader time to find the right guide is not measured.
+- Reader time to find the right guide is not measured.
 
 ## What I'd highlight
 
