@@ -30,13 +30,13 @@ About 90 percent used the API documentation, about 70 percent used the site to l
 
 I tagged every free-text answer by topic and wrote response notes for many. The notes tie requests to work: review each API for accuracy as the reference moved to new OpenAPI-based pages, add separate integration instruction pages, and agree an update routine with the integrations team. Some notes show this work was already planned, so the survey confirmed it rather than starting it.
 
-In mid-2021 the API reference was one page; by December 2021 the workbook tracks well over a hundred endpoint pages, and a set of separate integration installation pages appears in the same workbook. One note proposed a regular audit of integration pages; whether one started then is not recorded. Most search complaints concerned the documentation platform's search, which the notes say the team could not change.
+In mid-2021 the API reference was one page; by December 2021 the workbook tracks well over a hundred endpoint pages, and a set of separate integration installation pages appears in the same workbook. One note proposed a regular audit of integration pages, and I started one after the survey. Most search complaints concerned the documentation platform's search, which the notes say the team could not change.
 
 ### 3. Release-level comparisons (2022)
 
 A 2022 workbook held every page's monthly views across 2021 and 2022. When the enrichment documentation was replaced, the old page fell to roughly a fifth of its traffic within two months while the new page took it over.
 
-For the SCIM release I compared month-long windows around the announcement. From a small base, views across the SCIM and role management pages rose roughly 70 percent afterward, monthly views roughly doubled over four months, and readers moved from the older beta user API pages to the new endpoints. Those ratios are approximate, and the change is not isolated from other causes. A 2023 workbook compared the SSO pages with their page-type baseline: one setup page held readers about 2.4 times as long as a typical instructions page, on a page with very low traffic. What followed from that is not recorded.
+For the SCIM release I compared month-long windows around the announcement. From a small base, views across the SCIM and role management pages rose roughly 70 percent afterward, monthly views roughly doubled over four months, and readers moved from the older beta user API pages to the new endpoints. Those ratios are approximate, and the change is not isolated from other causes. A 2023 workbook compared the SSO pages with their page-type baseline: one setup page held readers about 2.4 times as long as a typical instructions page, on a page with very low traffic. The SSO pages were then substantially rewritten; the sources do not include a later comparison, so the effect of the rewrite is not measured here.
 
 ### 4. Annual comparisons and page-type goals (2023)
 
