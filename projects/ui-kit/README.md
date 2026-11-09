@@ -54,8 +54,8 @@ Docs pages, internal tools, prototypes and one-off web pages were each styled by
 
 ## What I'd highlight
 
-- **Accessibility first, not added at the end:** every component is built to the standard by default and passes the automated checks, and the reasons are written down.
-- **Docs that enforce themselves:** guidance, examples and an automated checker, so the rules are applied instead of just read.
-- **Built for reuse:** semantic tokens and audience profiles let one kit serve docs, internal tools and product mockups.
+- **Standards with their reasons on record:** every brand and accessibility decision names the rule behind it, in one source kept current with a changelog.
+- **Review built into the workflow:** a page checker and a design review mode that flags upcoming UI before it goes to engineering help catch problems early, and pages built with AI help pass the same checks.
+- **One system for several audiences:** semantic tokens and three audience profiles let one kit serve docs, internal tools and product UI, and an internal admin console has adopted it.
 
 Details are generalized and identifiers removed. No proprietary brand assets, internal URLs or product code are included.

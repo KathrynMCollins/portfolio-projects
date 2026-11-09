@@ -7,7 +7,7 @@
 
 ## What this shows
 
-Editing judgment written down so a writer, a reviewer, a scanner and a model all apply it the same way: severity tiers that leave correct uses alone, before and after rewrites, separate drafting and evaluation, and a limits section on what a standard cannot guarantee.
+Quality at scale through a written standard: editing judgment set down so a writer, a reviewer, a scanner and a model all apply it the same way. It shows severity tiers that leave correct uses alone, before and after rewrites, a clear split of who checks what (with drafting and evaluation kept separate), and a limits section on what a standard cannot guarantee.
 
 ## Summary
 

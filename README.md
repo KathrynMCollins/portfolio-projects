@@ -29,12 +29,12 @@ Naming treated as disclosure: one owner per release stage, a record of every ren
 Shows a naming process designed to stay consistent across teams.
 
 #### [Security evaluation for moving an internal knowledge base](case-studies/security-evaluation.md)
-A tooling proposal turned into a document a security team can decide on: access options and their fit, recommendations, a pre-launch checklist and the questions only security can answer.
+A docs platform proposal turned into a document security and leadership reviewers can decide on: access options and their fit, recommendations, a pre-launch checklist and the questions only security can answer.
 Recommends keeping public and internal docs on separate platforms so nothing reaches the public without human review.
 
 #### [Doc impact digest: automated documentation triage from engineering work](projects/doc-impact-digest/README.md)
-Applied safety for a deployed AI agent: its role is limited in its instructions and its writes are limited by access.
-Includes security review, decision records and fixes drawn from its own run logs.
+Engineering work is triaged for docs impact when it starts and after it ships, and each docs stage produces a ticket, a draft or a notice.
+Includes a feature name registry, decision records, security review, and fixes drawn from its own run logs.
 
 ### Writing, editing and content management
 
@@ -50,12 +50,12 @@ The house standard every doc meets, whether a person or a model drafts it: sever
 Shows editing judgment written down so it holds across writers, scanners and models.
 
 #### [AI assistant skills for a technical documentation team](projects/tech-docs-skills/README.md)
-Editorial standards turned into rules a model applies, with drafting and evaluation on separate models and a person deciding every outcome.
-Shows Claude in editorial work with human review gates.
+A long style guide turned into core rules and 14 doc-type templates applied on every draft, with every run ending in owned action items.
+Shows style governance across a suite of skills, with drafting and evaluation on separate models and a person deciding every outcome.
 
 #### [Analytics framework for a docs AI assistant](projects/ai-widget-analytics/README.md)
-States what its evidence can and cannot support, and sets disclosure and confidentiality controls for transcript data.
-Written for leadership and the docs team at once.
+A measurement model that counts goals instead of conversations and turns unanswered questions into a docs backlog.
+Written for leadership and the docs team at once, with redaction rules for transcript data and the evidence's limits stated.
 
 #### [Self-regenerating docs pipeline: system design and prototype](projects/docs-pipeline-design/README.md)
 A technical system explained to decision-makers, with the prototype's limits stated next to its results.
@@ -64,15 +64,15 @@ A technical system explained to decision-makers, with the prototype's limits sta
 Standards with their reasons written down, and review of upcoming UI before it reaches engineering.
 
 #### [Guardrails for AI-assisted publishing](case-studies/ai-publishing-guardrails.md)
-Disclosure and confidentiality controls for a customer-facing log that AI drafts and people publish, with agent permissions enforced in instructions and by scoped access.
-Includes a postmortem of a silent failure and the limits kept manual on purpose.
+A review and publishing workflow for a monthly customer Bug Fix Log: AI drafts, people verify, approve and publish, and no automated step writes to the public docs.
+Includes the controls, a postmortem of a silent failure and the limits kept manual on purpose.
 
 #### [One style standard, five AI models: a pre-registered test](case-studies/model-variance-study.md)
-Evaluation design and reporting: hypotheses fixed before any run, every result reported as logged, and the limits stated next to the claims.
+Quality control for a written style standard: hypotheses fixed before any run, every result reported as logged, and the limits stated next to the claims.
 Shows how models behave under a written standard, what automated checks miss, and why blind human review still matters.
 
 #### [Talk: Same standard, different readers](talks/same-standard-different-readers/README.md)
-Explains model behavior to technical writers who don't work with models, using only results from the logged test.
+Explains to technical writers what changes when a style guide becomes a prompt, using only results from the logged test.
 Slides with speaker notes, an outline that cites the source of every number, and stated limits.
 
 #### [Model variance test kit](test-kit/model-variance-kit/)

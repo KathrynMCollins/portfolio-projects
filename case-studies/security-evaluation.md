@@ -8,7 +8,7 @@
 
 ## What this shows
 
-Turning a tooling proposal into a document a security team can decide on: the scope stated first, each access option with its fit, recommendations with the reason behind them, a checklist that must pass before launch, and the questions only the security team can answer. It also shows a disclosure judgment: it recommends keeping public and internal content on separate platforms, so that nothing reaches the public without human review.
+Turning a content platform proposal into a document that security and leadership reviewers can decide on: the scope stated first, each access option with its fit, recommendations with the reason behind them, a checklist that must pass before launch, and the questions only the security team can answer. It also shows a publishing-control judgment: it recommends keeping public and internal content on separate platforms, so that nothing reaches the public without human review.
 
 Portfolio note: the vendor, internal space names, domains and team names are generalized.
 

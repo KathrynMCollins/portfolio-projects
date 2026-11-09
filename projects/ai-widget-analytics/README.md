@@ -60,8 +60,8 @@ The obvious measure, number of conversations, turned out to be misleading. In th
 
 ## What I'd highlight
 
-- **Questioning the obvious metric:** showing with data why "conversations" wasn't a usable number.
-- **Measurement that creates work:** every main metric points to a specific action for the docs team.
-- **Honest about the evidence:** limits and gaps are listed next to the conclusions.
+- **Measurement that creates docs work:** every main metric points to a specific action for the docs team, after showing with data why "conversations" wasn't a usable number.
+- **Written for leadership and the docs team at once:** two headline numbers, a weekly, monthly and quarterly review rhythm, and eight next steps for stakeholder review.
+- **Governance and honest evidence:** redaction before storage and limited retention for transcript data, with limits and gaps listed next to the conclusions.
 
 Details are generalized and identifiers removed. No customer names, transcript content, internal URLs or proprietary data are included.

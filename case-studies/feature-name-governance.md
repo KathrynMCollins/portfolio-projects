@@ -7,7 +7,7 @@
 
 ## What this shows
 
-A name is the smallest unit of disclosure. Calling a capability by the wrong name, or by an internal name too early, tells customers something the company did not decide to say. The registry treats naming the way a publishing team treats any public claim: one owner per stage, a record of every change, and no automated step that can put words in front of readers without a person deciding.
+Cross-team ownership of something every team touches. The registry gives docs, product and marketing one record per feature, one owner per release stage and a record of every rename, so a name decision is made once and every place it must change is tracked. It treats a name as a public claim: calling a capability by the wrong name, or by an internal name too early, tells customers something the company did not decide to say, so no automated step can set the name readers see.
 
 ## Summary
 

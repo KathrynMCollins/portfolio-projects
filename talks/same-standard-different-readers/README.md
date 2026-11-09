@@ -6,7 +6,7 @@
 
 ## What this shows
 
-Explaining model behavior to technical writers who don't work with AI models: what changes when a style guide becomes a prompt, why a passing automated check can hide a real problem, and how to read a small test honestly. Every number on the slides comes from logged runs in the [model variance kit](../../test-kit/model-variance-kit/), and each example names its model, run and the totals for its group.
+Explaining to a documentation audience how a team's style guide holds up when one of its writers is an AI model: what changes when a style guide becomes a prompt, why a passing automated check can hide a real problem, and how to read a small test honestly. Every number on the slides comes from logged runs in the [model variance kit](../../test-kit/model-variance-kit/), and each example names its model, run and the totals for its group.
 
 ## Abstract
 

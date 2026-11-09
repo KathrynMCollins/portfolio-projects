@@ -66,8 +66,8 @@ Meanwhile, one integration API guide had become a source of customer confusion: 
 
 ## What I'd highlight
 
-- **Evidence before change:** nothing went live without a dry run, approval and a check afterwards.
-- **Working with engineering:** I turned an ambiguous customer issue into specific questions for engineering, and turned the answers into reference and guide updates.
-- **Making it repeatable:** the pipeline, checks and recorded behaviours let the team keep the reference clean instead of cleaning it up again.
+- **Information architecture at scale:** about 540 endpoints moved into a reorganized folder tree, with public and internal content separated by audience.
+- **Change control with team sign-off:** the proposal went through team decisions first, and nothing went live without a dry run, approval and a check afterwards.
+- **Cross-team work that stays repeatable:** an ambiguous customer issue became specific questions for engineering and corrected pages, and the pipeline and recurring checks let the team keep the reference clean.
 
 Details are generalized and identifiers removed. No proprietary content, endpoints or customer information is included.

@@ -1,6 +1,6 @@
 # Guardrails for AI-assisted publishing
 
-**Type:** Case study: disclosure and confidentiality controls, human-in-the-loop design, applied safety for deployed AI agents
+**Type:** Case study: disclosure and confidentiality controls, human-in-the-loop design, publishing controls for AI-drafted content
 **When:** November 2026
 **Author:** Kathryn Collins
 **Prepared for:** Content management and technical writing roles
@@ -63,7 +63,7 @@ Each control answers one question: what stops sensitive content from reaching th
 | Human import into the docs CMS | Any automated write to the public site | Publishing |
 | Per-surface allow-list for agents | Agents writing outside their lane | All agents |
 
-The last row is where I take part directly in the safety design of our AI workers. The digest agent (the agent that triages engineering work for documentation impact) works from an allow-list for each surface it touches:
+The last row is where I contribute directly to the publishing controls for our AI workers. The digest agent (the agent that triages engineering work for documentation impact) works from an allow-list for each surface it touches:
 
 - Each system the agent touches has its own short list of permitted actions, limited to what its job needs. For example, in the issue tracker it can create tickets only for the docs team.
 - It has no access at all to the public docs CMS.
@@ -92,13 +92,13 @@ The process is deliberately slower than it could be, and it does not catch every
 - **The inclusion test reads tickets, not code.** If a ticket understates a change, the entry will too. Accuracy still depends on review with engineering.
 - **Silent success and silent failure look alike.** The failure above shows this. Counts in every run report reduce the risk but do not remove it.
 
-## What this taught me about disclosure
+## What this taught me about publishing controls
 
-The hard part of AI-assisted publishing is not drafting; it is deciding what a system is allowed to say, and proving that decision held. Four habits from this work carry directly to writing about AI systems themselves.
+The hard part of AI-assisted publishing is not the drafting. It is deciding what may be published, who decides, and proving that decision held. Four habits from this work apply to any publishing team.
 
 - **Treat the security concern as a design requirement.** The log shipped only after the process answered each concern point by point.
-- **Write the standard down before the model applies it.** A written inclusion test can be reviewed, argued with and changed. A model's implicit judgment cannot.
+- **Write the standard down before anyone applies it.** A written inclusion test can be reviewed, argued with and changed. A writer's or a model's unwritten judgment cannot.
 - **Make uncertainty visible instead of resolving it quietly.** Held items, and the counts that exposed our silent failure, are the publishing equivalent of stating a limitation plainly.
 - **Keep the final disclosure decision with a person who can see the whole document.** Automation can narrow what a reviewer reads; it should not remove the reviewer.
 
-This work is small in scale compared with reporting on frontier models. The judgment it exercises is the same: what is true, what is safe to say, and what the reader needs to know about what we could not check.
+This is one monthly log. The questions it answers are the ones any publishing team owns: what is true, what is safe to say, and what the reader needs to know about what we could not check.

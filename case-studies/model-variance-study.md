@@ -7,7 +7,7 @@
 
 ## What this shows
 
-How I test an AI-assisted publishing step before trusting it: hypotheses written down before any run, results reported as they came out (including the ones that went against me), and limits stated next to every claim. It is also the source for a talk that explains model behavior to writers who don't work with models, which is the kind of mixed-reader writing the role calls for.
+How I check that a written content standard holds before a team relies on it: hypotheses written down before any run, results reported as they came out (including the ones that went against me), and limits stated next to every claim. In this test, the writers applying the standard were AI models. The results are also the source for a talk that explains model behavior to writers who don't work with models.
 
 ## The question
 

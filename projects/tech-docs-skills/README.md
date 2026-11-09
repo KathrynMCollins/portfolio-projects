@@ -7,7 +7,7 @@
 
 ## What this shows
 
-Claude in editorial work, with people in charge of the result. The house style became rules a model applies every time, drafting and evaluation run on separate models, and every run ends in a report that a person acts on. This is the editing judgment the role needs, written down so it is applied the same way every time.
+Claude in editorial work, with people in charge of the result. The house style became rules a model applies every time, drafting and evaluation run on separate models, and every run ends in a report that a person acts on. This is editing judgment written down so it is applied the same way every time.
 
 ## The problem
 
@@ -64,8 +64,8 @@ Built or shaped related skills that share the same rules:
 
 ## What I'd highlight
 
-- **Style governance that scales:** the style guide is applied every time, not just referenced.
-- **Guardrails over trust:** separate evaluation, explicit limitations and required follow-ups make AI output reviewable.
-- **Maintained like a product:** changelogs, version control and coordinated updates across the suite.
+- **Style governance that scales:** a long style guide became core rules and 14 doc-type templates applied on every draft, not just referenced.
+- **A review workflow with clear ownership:** every run ends in numbered, owned action items, tickets land with the docs team first, and separate evaluation keeps AI drafts reviewable.
+- **Maintained like a product:** changelogs, version control and cross-cutting changes rolled out across about ten skills in one pass.
 
 Details are generalized and identifiers removed. No proprietary style guide text, internal tickets, people or product content are included.

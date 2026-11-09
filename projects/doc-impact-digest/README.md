@@ -7,7 +7,7 @@
 
 ## What this shows
 
-Applied safety for a deployed AI agent, and writing about its own failures. The AI's role is limited in two places: by design it makes only three judgement calls, and token and repository permissions limit its writes to its own folder, so the limits hold even if the instructions are misread. Version 2 fixed four defects found in the digest's own run logs.
+A documentation triage process with an automated step kept under control, and a frank record of its own failures. The automated step's role is limited in two places: by design it makes only three judgement calls, and token and repository permissions limit its writes to its own folder, so the limits hold even if the instructions are misread. Version 2 fixed four defects found in the digest's own run logs.
 
 ## The problem
 
@@ -54,8 +54,8 @@ Product changes reached the docs team too late, or not at all. Engineering work 
 
 ## What I'd highlight
 
-- **Docs as part of the release process:** writers hear about work when it starts, not after it ships.
-- **Governance built in:** decision records, security review, people-owned names and AI kept to clearly defined judgement calls.
-- **Treated as a product:** versioned releases fixed defects found in its own logs.
+- **Docs as part of the release process:** a daily and a weekly pass, planned project-first, so writers hear about work when it starts, not after it ships.
+- **Governance with clear ownership:** a stage ladder that ties each docs stage to an action, people-owned feature names, decision records and security review, with AI kept to three judgement calls.
+- **Treated as a product:** version 2 fixed four defects found in its own run logs, and every rule is covered by tests.
 
 Details are generalized and identifiers removed. No internal tickets, project names, people or customer information are included.

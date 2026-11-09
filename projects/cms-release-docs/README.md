@@ -58,8 +58,8 @@ In this CMS, any change to a live topic goes out with the next publication, and 
 
 ## What I'd highlight
 
-- **Release notes as a moving target:** tracking revisions and changing the docs plan to match, rather than editing once and hoping.
-- **Working with product and engineering:** turning an ambiguous statement into a specific question and getting it answered on record.
-- **Safe editing in a reuse-heavy CMS:** copies, reuse checks and verification before anything reaches readers.
+- **Change control in a reuse-heavy CMS:** copies, reuse checks and verification before anything reaches readers, with zero unintended changes to live or reused content.
+- **A docs plan that follows the release:** release notes mapped to six audit items and re-checked when revised notes arrived, rather than editing once and hoping.
+- **Stakeholder alignment on record:** an ambiguous support statement turned into a specific question for the product owner and answered on record.
 
 Details are generalized and identifiers removed. No internal product names, internal tickets, people or unreleased feature details are included.

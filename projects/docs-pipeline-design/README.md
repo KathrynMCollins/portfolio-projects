@@ -53,8 +53,8 @@ The app already described itself in code: a page registry listing every page wit
 
 ## What I'd highlight
 
-- **Docs as a product of the app, not a copy of it:** the design lets one change to the UI regenerate the doc, screenshot and video together.
-- **Reviewing differences, not pages:** writers spend their time on real changes instead of re-checking everything.
-- **From idea to evidence in one pass:** a design, a working prototype and a presentation handoff, with the limitations stated.
+- **A single source of truth for docs:** the app's own page registry drives the content, so the design lets one UI change regenerate the doc, screenshot and video together, with AI limited to drafting prose.
+- **A review workflow built on differences:** drift classes decide what is accepted automatically and what opens a review, so writers spend their time on real changes.
+- **Packaged for decision-makers:** a design, a working prototype and a presentation handoff that names the decisions needed, with the limitations stated.
 
 Details are generalized and identifiers removed. No proprietary code, product names or customer information is included.
