@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Find the documentation a set of product changes makes stale, using the Claude API."
 readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
 dependencies = ["anthropic>=2.10", "pydantic>=2"]
 
 [project.optional-dependencies]
@@ -13,7 +14,7 @@ test = ["pytest>=8"]
 doc-impact = "doc_impact.cli:main"
 
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]

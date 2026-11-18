@@ -92,3 +92,8 @@ general form, the three buckets, the evidence rule and the report shape.
 
 Details are generalized and identifiers removed. No internal systems, tickets, people or
 customer information are included.
+
+## License
+
+The code in this folder is released under the [MIT License](LICENSE). The rest of this
+repository is not covered by it.
