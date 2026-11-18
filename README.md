@@ -38,6 +38,10 @@ Recommends keeping public and internal docs on separate platforms so nothing rea
 Editorial standards turned into rules a model applies, with drafting and evaluation on separate models and a person deciding every outcome.
 Shows Claude in editorial work with human review gates.
 
+### [doc-impact: an open-source tool on the Claude API, with a quickstart](projects/doc-impact-cli/README.md)
+A public, rebuilt version of my documentation impact audit: Claude triages each product change, and a script checks every passage it cites.
+Includes code, tests, a sample product with an answer key, and a quickstart a new user can follow.
+
 ### [Doc impact digest: automated documentation triage from engineering work](projects/doc-impact-digest/README.md)
 Applied safety for a deployed AI agent: its role is limited in its instructions and its writes are limited by access.
 Includes security review, decision records and fixes drawn from its own run logs.
