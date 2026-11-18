@@ -4,7 +4,6 @@
 **When:** 2021 to 2023, with later use in 2026
 **Author:** Kathryn Collins
 **Tools:** Google Analytics (Universal Analytics, then GA4), spreadsheet pivot tables, an internal survey form
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

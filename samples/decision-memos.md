@@ -3,7 +3,6 @@
 **Type:** Sample: four one-page decision memos
 **When:** September to October 2026
 **Author:** Kathryn Collins
-**Prepared for:** Content management and documentation leadership roles
 
 These memos are rewritten from real records: an investment proposal I wrote for leadership and three architecture decision records where I was the decider for an internal knowledge base. They are generalized for a public portfolio, with people, customers, internal names and identifiers removed. Each one shows a different kind of judgment: team structure, process, platform and risk. Options are reconstructed from each record's context where the record does not list them. Where the outcome is not in the record, the memo says so.
 

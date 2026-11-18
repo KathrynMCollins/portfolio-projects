@@ -3,7 +3,6 @@
 **Type:** Case study: naming decisions, disclosure and cross-team ownership
 **When:** September to November 2026
 **Author:** Kathryn Collins
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

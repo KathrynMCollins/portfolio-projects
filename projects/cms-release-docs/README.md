@@ -4,7 +4,6 @@
 **When:** October 2026
 **Author:** Kathryn Collins
 **Tools:** Paligo (DocBook XML component CMS), Paligo API, Python, Markdown, Claude Code
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

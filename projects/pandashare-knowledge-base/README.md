@@ -4,7 +4,6 @@
 **When:** June to November 2026
 **Author:** Kathryn Collins
 **Tools:** Markdown with YAML frontmatter (Open Knowledge Format), Git and GitHub, Confluence, Python and Node validators, a static site, Claude Code, Architecture Decision Records
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

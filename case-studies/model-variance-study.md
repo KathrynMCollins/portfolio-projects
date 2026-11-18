@@ -4,7 +4,6 @@
 **When:** November 2026
 **Author:** Kathryn Collins
 **Tools:** Claude Code (headless runs), Python, the house style scanner, a blind scoring page, Git
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

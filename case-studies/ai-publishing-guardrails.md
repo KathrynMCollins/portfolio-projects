@@ -3,7 +3,6 @@
 **Type:** Case study: disclosure and confidentiality controls, human-in-the-loop design, publishing controls for AI-drafted content
 **When:** November 2026
 **Author:** Kathryn Collins
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

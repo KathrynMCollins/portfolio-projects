@@ -4,7 +4,6 @@
 **When:** October to November 2026
 **Author:** Kathryn Collins
 **Tools:** HTML, CSS custom properties (design tokens), vanilla JavaScript, axe-core, Playwright, Python, Claude Code
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

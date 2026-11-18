@@ -4,7 +4,6 @@
 **When:** September to November 2026
 **Author:** Kathryn Collins
 **Tools:** Claude skills (Markdown instructions and reference files), Python, Vale, Git, Linear, Confluence, Paligo, Claude Code
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

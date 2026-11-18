@@ -3,7 +3,6 @@
 **Event:** Write the Docs
 **Status:** Planned. Slides and speaker notes drafted; not yet delivered.
 **Author:** Kathryn Collins
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

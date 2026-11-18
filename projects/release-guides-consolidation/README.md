@@ -4,7 +4,6 @@
 **When:** September to October 2026
 **Author:** Kathryn Collins
 **Tools:** Confluence, Markdown, Python structural checker, a nightly sync to an internal site, redirect map, Linear, Claude Code (Claude Opus and Sonnet models)
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

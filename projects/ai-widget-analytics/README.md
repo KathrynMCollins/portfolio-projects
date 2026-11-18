@@ -4,7 +4,6 @@
 **When:** October 2026
 **Author:** Kathryn Collins
 **Tools:** Transcript analysis, Google Analytics 4 data, Python, Claude Code
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

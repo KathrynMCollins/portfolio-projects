@@ -3,7 +3,6 @@
 **Type:** Case study: capacity planning, an investment case to leadership and team design
 **When:** August to October 2026
 **Author:** Kathryn Collins
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

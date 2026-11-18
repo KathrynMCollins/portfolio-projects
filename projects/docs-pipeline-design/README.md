@@ -4,7 +4,6 @@
 **When:** September 2026
 **Author:** Kathryn Collins
 **Tools:** Playwright, TypeScript, YAML, Zod, Node.js, WebVTT captions, Claude Code
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

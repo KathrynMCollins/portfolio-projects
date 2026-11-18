@@ -4,7 +4,6 @@
 **When:** September to October 2026
 **Author:** Kathryn Collins
 **Tools:** Linear, Confluence, Slack, Python, TypeScript, a serverless host, GitHub Actions, Claude (AI audit step), Architecture Decision Records
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 

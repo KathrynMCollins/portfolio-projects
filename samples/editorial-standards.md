@@ -3,7 +3,6 @@
 **Type:** Sample: an editorial standard and how it is enforced
 **When:** November 2026
 **Author:** Kathryn Collins
-**Prepared for:** Content management and documentation leadership roles
 
 ## What this shows
 
