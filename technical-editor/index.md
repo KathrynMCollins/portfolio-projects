@@ -53,6 +53,10 @@ Shows Claude in editorial work with human review gates.
 Applied safety for a deployed AI agent: its role is limited in its instructions and its writes are limited by access.
 Includes security review, decision records and fixes drawn from its own run logs.
 
+### [doc-impact: an open-source tool on the Claude API, with a quickstart](../projects/doc-impact-cli/README.md)
+A public, rebuilt version of the documentation impact audit: Claude triages each product change, and a script checks every passage it cites.
+Includes code, tests, a sample product with an answer key, and a quickstart a new user can follow.
+
 ### [Release documentation in a component CMS](../projects/cms-release-docs/README.md)
 Release docs written while the release was moving, with an ambiguous support statement settled with the product owner on record.
 Nothing reached readers before it was checked.
