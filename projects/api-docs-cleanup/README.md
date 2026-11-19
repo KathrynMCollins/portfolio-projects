@@ -13,7 +13,7 @@ Checking facts with engineering and separating what is public from what is inter
 
 A SaaS company's API reference portal had grown over several years of imports and hand edits:
 
-- Endpoints were split across more modules and branches than anyone could keep track of, and the folders didn't follow how readers actually use the API.
+- All of the roughly 540 endpoints came from a single OpenAPI 3.0 YAML file with no grouping, so the portal listed them as one flat, unsorted set. Nothing told a reader where to start or which endpoints were meant for them.
 - The same schemas existed in several copies with slightly different wording, and many request and response bodies were pasted into each endpoint instead of shared.
 - Hundreds of endpoints had no standard error responses, summaries were inconsistent, and nothing marked which endpoints were public and which were internal.
 - The portal had no API connector, so every fix was manual and nothing was tracked.

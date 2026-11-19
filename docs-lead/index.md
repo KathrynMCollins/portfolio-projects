@@ -67,10 +67,6 @@ Engineering work is triaged for docs impact when it starts and after it ships, a
 Includes the Feature Name Registry, decision records, security review, and fixes drawn from its own run logs.
 
 
-#### [doc-impact: an open-source tool on the Claude API, with a quickstart](../projects/doc-impact-cli/README.md)
-The triage step of the digest rebuilt as a public tool: one Claude call per change, every cited passage checked by script, nothing dropped without a record.
-Includes code, tests, a sample product with an answer key, and a quickstart a new user can follow.
-
 ### Owning the program
 
 #### [Sizing a documentation capacity gap and making the investment case](../case-studies/docs-capacity-and-investment-case.md)
